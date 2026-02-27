@@ -1,0 +1,154 @@
+[
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"0",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2023":2895972
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"0",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2023":2734886
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"0",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2023":3349019
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2023":1104164
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2023":941416
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2023":936699
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2023":754826
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2023":1114727
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2023":1276800
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2023":709353
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2023":1370252
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2023":1095298
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2023":1400914
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2023":1867498
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2023":1468039
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2023":1906184
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2023":1658799
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2023":2479587
+ },
+ {
+  "organismo_nombre":"Corporación Santiago Innova",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2023":1714797
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"0",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":4,
+  "Febrero_2020":4,
+  "Mayo_2020":4
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"0",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Auditor(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Comunicador(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":2,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Director(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Diseñador(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":3,
+  "Febrero_2020":3,
+  "Mayo_2020":3
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Secretario(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":2,
+  "Febrero_2020":2,
+  "Mayo_2020":2
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ },
+ {
+  "organismo_nombre":"Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Febrero_2020":1,
+  "Mayo_2020":1
+ }
+]

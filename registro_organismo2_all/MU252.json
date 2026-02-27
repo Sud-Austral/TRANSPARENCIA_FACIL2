@@ -1,0 +1,712 @@
+[
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":4,
+  "Noviembre_2025":1,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":4,
+  "Noviembre_2025":3,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":4,
+  "Noviembre_2025":4,
+  "Diciembre_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":2,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":7,
+  "Noviembre_2025":7,
+  "Diciembre_2025":7
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":11,
+  "Noviembre_2025":10,
+  "Diciembre_2025":11
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":6,
+  "Noviembre_2025":6,
+  "Diciembre_2025":6
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Asistente Social",
+  "age_label":"18 a 30",
+  "sexo":"desconocido",
+  "Octubre_2025":3,
+  "Noviembre_2025":3,
+  "Diciembre_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Asistente Social",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Asistente Social",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":4,
+  "Noviembre_2025":4,
+  "Diciembre_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Asistente Social",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":3,
+  "Noviembre_2025":3,
+  "Diciembre_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Asistente Social",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":30,
+  "Noviembre_2025":30,
+  "Diciembre_2025":31
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Asistente Social",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Auxiliar",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Auxiliar",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Auxiliar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Auxiliar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":8,
+  "Noviembre_2025":8,
+  "Diciembre_2025":8
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Auxiliar",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":10,
+  "Noviembre_2025":9,
+  "Diciembre_2025":6
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":4,
+  "Noviembre_2025":4,
+  "Diciembre_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":7,
+  "Noviembre_2025":7,
+  "Diciembre_2025":7
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":3,
+  "Noviembre_2025":3,
+  "Diciembre_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":6,
+  "Noviembre_2025":7,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":4,
+  "Noviembre_2025":4,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":0,
+  "Noviembre_2025":0,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":3,
+  "Noviembre_2025":1,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"65 a 85",
+  "sexo":"desconocido",
+  "Octubre_2025":0,
+  "Noviembre_2025":0,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Octubre_2025":6,
+  "Noviembre_2025":3,
+  "Diciembre_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Octubre_2025":3,
+  "Noviembre_2025":3,
+  "Diciembre_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Oficio",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Oficio",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":7,
+  "Noviembre_2025":7,
+  "Diciembre_2025":7
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Oficio",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Oficio",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":5,
+  "Noviembre_2025":5,
+  "Diciembre_2025":5
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Oficio",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":3,
+  "Noviembre_2025":3,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":12,
+  "Noviembre_2025":11,
+  "Diciembre_2025":11
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":15,
+  "Noviembre_2025":15,
+  "Diciembre_2025":15
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":23,
+  "Noviembre_2025":22,
+  "Diciembre_2025":25
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":38,
+  "Noviembre_2025":36,
+  "Diciembre_2025":33
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":8,
+  "Noviembre_2025":8,
+  "Diciembre_2025":10
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":1,
+  "Noviembre_2025":0,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":3,
+  "Noviembre_2025":3,
+  "Diciembre_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":4,
+  "Noviembre_2025":4,
+  "Diciembre_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":7,
+  "Noviembre_2025":7,
+  "Diciembre_2025":7
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":12,
+  "Noviembre_2025":12,
+  "Diciembre_2025":12
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":2,
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":9,
+  "Noviembre_2025":9,
+  "Diciembre_2025":8
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":6,
+  "Noviembre_2025":6,
+  "Diciembre_2025":6
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Quillón",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":1,
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ }
+]

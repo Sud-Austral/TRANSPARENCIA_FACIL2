@@ -1,0 +1,458 @@
+[
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"0",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":5
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"0",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"0",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":8
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"0",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Administrativo(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Administrativo(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Administrativo(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Administrativo(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Administrativo(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Contador(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Contador(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Contador(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Contador(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Contador(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Básica",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Básica",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Básica",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":15
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Básica",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Julio_2025":11
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Básica",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Básica",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":11
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":31
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":22
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Julio_2025":15
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Julio_2025":9
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":7
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Mecánico(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Mecánico(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Mecánico(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":12
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Mecánico(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Julio_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":15
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":15
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":18
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":19
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Julio_2025":12
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Secretario(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Secretario(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Secretario(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":16
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Secretario(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Julio_2025":7
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":9
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":11
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"desconocido",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":8
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de Arica",
+  "base":"Planta",
+  "homologado":"Técnico",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Julio_2025":3
+ }
+]

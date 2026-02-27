@@ -1,0 +1,612 @@
+[
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Artes Musicales",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":854178,
+  "Noviembre_2025":854178,
+  "Diciembre_2025":974178
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Artes Musicales",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":854178,
+  "Noviembre_2025":854178,
+  "Diciembre_2025":974178
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Artes Musicales",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":945833,
+  "Noviembre_2025":951965,
+  "Diciembre_2025":1018524
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Artes Musicales",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":1299711,
+  "Noviembre_2025":1299711,
+  "Diciembre_2025":1419711
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Artes Musicales",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":896887,
+  "Noviembre_2025":896887,
+  "Diciembre_2025":1009768
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Artes Musicales",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":939596,
+  "Noviembre_2025":939596,
+  "Diciembre_2025":1059596
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Artes Musicales",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Octubre_2025":911123,
+  "Noviembre_2025":901632,
+  "Diciembre_2025":974178
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Artes Musicales",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Octubre_2025":1025013,
+  "Noviembre_2025":1025013,
+  "Diciembre_2025":1145013
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Básica",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":634512,
+  "Noviembre_2025":652940,
+  "Diciembre_2025":980575
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Básica",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Octubre_2025":756313,
+  "Noviembre_2025":824239,
+  "Diciembre_2025":980575
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Octubre_2025":652940,
+  "Noviembre_2025":712929,
+  "Diciembre_2025":772940
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Intérprete",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":905428,
+  "Noviembre_2025":854178,
+  "Diciembre_2025":1042512
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Intérprete",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Octubre_2025":854178,
+  "Noviembre_2025":854178,
+  "Diciembre_2025":974178
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":1546105,
+  "Noviembre_2025":1692984,
+  "Diciembre_2025":1801418
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":1283542,
+  "Noviembre_2025":1252761,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":2495443,
+  "Noviembre_2025":2495443,
+  "Diciembre_2025":2615443
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":2391698,
+  "Noviembre_2025":2391698,
+  "Diciembre_2025":2511698
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":1697610,
+  "Noviembre_2025":1784349,
+  "Diciembre_2025":1874279
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":2405567,
+  "Noviembre_2025":2405567,
+  "Diciembre_2025":2525567
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Periodista",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":1947364,
+  "Noviembre_2025":1947364,
+  "Diciembre_2025":2067364
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":1025013,
+  "Noviembre_2025":1025013,
+  "Diciembre_2025":1145013
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":1191136,
+  "Noviembre_2025":1227418,
+  "Diciembre_2025":1373117
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":2349170,
+  "Noviembre_2025":2349170,
+  "Diciembre_2025":2469170
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Octubre_2025":854178,
+  "Noviembre_2025":854178,
+  "Diciembre_2025":575562
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":2037683,
+  "Noviembre_2025":2037683,
+  "Diciembre_2025":2157683
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":121926,
+  "Noviembre_2025":0,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":1197775,
+  "Noviembre_2025":1264408,
+  "Diciembre_2025":1282913
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"0",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":600464,
+  "Noviembre_2025":600464,
+  "Diciembre_2025":600464
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"0",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":1322329,
+  "Noviembre_2025":1322329,
+  "Diciembre_2025":1322329
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Artes Musicales",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":237817,
+  "Noviembre_2025":385965,
+  "Diciembre_2025":478338
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Artes Musicales",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":458215,
+  "Noviembre_2025":422415,
+  "Diciembre_2025":492089
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Artes Musicales",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":473057,
+  "Noviembre_2025":577398,
+  "Diciembre_2025":527555
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Artes Musicales",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":222222,
+  "Noviembre_2025":727021,
+  "Diciembre_2025":321046
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Artes Musicales",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":699195,
+  "Noviembre_2025":541896,
+  "Diciembre_2025":699195
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Artes Musicales",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":0,
+  "Noviembre_2025":614035,
+  "Diciembre_2025":532164
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Artes Musicales",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":339181,
+  "Noviembre_2025":0,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Artes Musicales",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Octubre_2025":222222,
+  "Noviembre_2025":233918,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":17544,
+  "Noviembre_2025":28509,
+  "Diciembre_2025":35088
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":21443,
+  "Noviembre_2025":45322,
+  "Diciembre_2025":46096
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":0,
+  "Noviembre_2025":52632,
+  "Diciembre_2025":23392
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":0,
+  "Noviembre_2025":112588,
+  "Diciembre_2025":40936
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":283041,
+  "Noviembre_2025":334503,
+  "Diciembre_2025":308772
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":0,
+  "Noviembre_2025":52632,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Octubre_2025":0,
+  "Noviembre_2025":17544,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Fotógrafo(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":80000,
+  "Noviembre_2025":160000,
+  "Diciembre_2025":160000
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Fotógrafo(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":294240,
+  "Noviembre_2025":0,
+  "Diciembre_2025":333372
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":319421,
+  "Noviembre_2025":319421,
+  "Diciembre_2025":247430
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":638841,
+  "Noviembre_2025":638841,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":440580,
+  "Noviembre_2025":158574,
+  "Diciembre_2025":644813
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":818713,
+  "Noviembre_2025":818714,
+  "Diciembre_2025":818714
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Octubre_2025":100000,
+  "Noviembre_2025":0,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":794507,
+  "Noviembre_2025":718928,
+  "Diciembre_2025":724811
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Octubre_2025":0,
+  "Noviembre_2025":0,
+  "Diciembre_2025":350000
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Periodista",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":0,
+  "Noviembre_2025":0,
+  "Diciembre_2025":409357
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Periodista",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":175439,
+  "Noviembre_2025":0,
+  "Diciembre_2025":409357
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":996550,
+  "Noviembre_2025":996550,
+  "Diciembre_2025":996550
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Octubre_2025":0,
+  "Noviembre_2025":217544,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Octubre_2025":1211595,
+  "Noviembre_2025":1211595,
+  "Diciembre_2025":1211595
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Octubre_2025":102163,
+  "Noviembre_2025":102163,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Octubre_2025":73313,
+  "Noviembre_2025":114934,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal Para El Desarrollo Cultural de Temuco",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Octubre_2025":0,
+  "Noviembre_2025":63384,
+  "Diciembre_2025":63384
+ }
+]

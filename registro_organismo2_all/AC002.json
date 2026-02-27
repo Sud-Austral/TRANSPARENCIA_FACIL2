@@ -1,0 +1,1832 @@
+[
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Abogado(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Administrador(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Administrador(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":5,
+  "Febrero_2018":5,
+  "Marzo_2018":6
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Ingeniero(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Ingeniero(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":10,
+  "Febrero_2018":10,
+  "Marzo_2018":10
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":10,
+  "Febrero_2018":10,
+  "Marzo_2018":11
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"50 a 65",
+  "sexo":"desconocido",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":7,
+  "Febrero_2018":7,
+  "Marzo_2018":7
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Abogado(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":8,
+  "Febrero_2018":8,
+  "Marzo_2018":9
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":7,
+  "Febrero_2018":5,
+  "Marzo_2018":5
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Administrador(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Auditor(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Auditor(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":8,
+  "Febrero_2018":8,
+  "Marzo_2018":8
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Auditor(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":11,
+  "Febrero_2018":11,
+  "Marzo_2018":11
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Auditor(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":7,
+  "Febrero_2018":6,
+  "Marzo_2018":6
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Auditor(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Auditor(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Auditor(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":5,
+  "Febrero_2018":5,
+  "Marzo_2018":5
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Docente",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":9,
+  "Febrero_2018":8,
+  "Marzo_2018":7
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Docente",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":0
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Enseñanza Media",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Enseñanza Media",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":5,
+  "Febrero_2018":5,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":2,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":8,
+  "Febrero_2018":8,
+  "Marzo_2018":9
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":36,
+  "Febrero_2018":36,
+  "Marzo_2018":37
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":55,
+  "Febrero_2018":55,
+  "Marzo_2018":56
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"desconocido",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":27,
+  "Febrero_2018":26,
+  "Marzo_2018":25
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":25,
+  "Febrero_2018":25,
+  "Marzo_2018":26
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":5,
+  "Febrero_2018":5,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":7,
+  "Febrero_2018":7,
+  "Marzo_2018":7
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":10,
+  "Febrero_2018":9,
+  "Marzo_2018":8
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":3,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":5,
+  "Febrero_2018":5,
+  "Marzo_2018":5
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":13,
+  "Febrero_2018":14,
+  "Marzo_2018":13
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":8,
+  "Febrero_2018":8,
+  "Marzo_2018":9
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":16,
+  "Febrero_2018":16,
+  "Marzo_2018":17
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":26,
+  "Febrero_2018":24,
+  "Marzo_2018":26
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":8,
+  "Febrero_2018":6,
+  "Marzo_2018":6
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":13,
+  "Febrero_2018":12,
+  "Marzo_2018":12
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":6,
+  "Febrero_2018":6,
+  "Marzo_2018":6
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Secretario(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":7,
+  "Febrero_2018":8,
+  "Marzo_2018":8
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Secretario(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":13,
+  "Febrero_2018":13,
+  "Marzo_2018":13
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Secretario(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Secretario(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Secretario(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Técnico",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contrata",
+  "homologado":"Técnico",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Abogado(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Abogado(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Abogado(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Abogado(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Abogado(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Administrador(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Administrador(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":2,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Administrador(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":5
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Auditor(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Auditor(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Auditor(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Auditor(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":3,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":4,
+  "Febrero_2018":5,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"S\/I",
+  "sexo":"desconocido",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":11,
+  "Febrero_2018":11,
+  "Marzo_2018":7
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":5,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":6,
+  "Febrero_2018":6,
+  "Marzo_2018":11
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"desconocido",
+  "Enero_2018":0,
+  "Febrero_2018":1,
+  "Marzo_2018":0
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":4,
+  "Febrero_2018":3,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Secretario(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Secretario(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":6,
+  "Febrero_2018":6,
+  "Marzo_2018":8
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Secretario(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":0,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":6,
+  "Febrero_2018":6,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":10,
+  "Febrero_2018":10,
+  "Marzo_2018":6
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":2,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":4,
+  "Febrero_2018":5,
+  "Marzo_2018":5
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":0,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Abogado(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Administrador(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Docente",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":0,
+  "Febrero_2018":2,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Docente",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":4,
+  "Febrero_2018":4,
+  "Marzo_2018":4
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a) Civil",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":0,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Ingeniero(a) Ejecución",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2018":2,
+  "Febrero_2018":2,
+  "Marzo_2018":2
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Secretario(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2018":0,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Secretario(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2018":3,
+  "Febrero_2018":3,
+  "Marzo_2018":3
+ },
+ {
+  "organismo_nombre":"Dirección General de Relaciones Económicas Internacionales (DIRECON)",
+  "base":"Planta",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2018":1,
+  "Febrero_2018":1,
+  "Marzo_2018":1
+ }
+]

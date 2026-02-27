@@ -1,0 +1,90 @@
+[
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Diciembre_2022":2
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Diciembre_2022":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Profesional",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Diciembre_2022":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Recepcionista",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Diciembre_2022":4
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Recepcionista",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Diciembre_2022":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Diciembre_2022":2
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Diciembre_2022":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Diciembre_2022":4
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Diciembre_2022":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Diciembre_2022":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal del Deporte de Vitacura",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Diciembre_2022":107
+ }
+]

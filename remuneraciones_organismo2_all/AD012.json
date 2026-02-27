@@ -1,0 +1,167 @@
+[
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contrata",
+  "homologado":"0",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":1039103,
+  "Junio_2018":1039103,
+  "Agosto_2018":1039103
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contrata",
+  "homologado":"0",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":1132150,
+  "Junio_2018":1132150,
+  "Agosto_2018":1132150
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contrata",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":704439,
+  "Junio_2018":704439,
+  "Agosto_2018":704439
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contrata",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Abril_2018":0,
+  "Mayo_2018":918648,
+  "Junio_2018":918648,
+  "Agosto_2018":918648
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contrata",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":607835,
+  "Junio_2018":607835,
+  "Agosto_2018":607835
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Administrativo(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Abril_2018":0,
+  "Mayo_2018":551620,
+  "Junio_2018":551620,
+  "Agosto_2018":551620
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Auxiliar",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":497166,
+  "Junio_2018":497166,
+  "Agosto_2018":497166
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":330351,
+  "Junio_2018":330351,
+  "Agosto_2018":330351
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":487468,
+  "Junio_2018":487468,
+  "Agosto_2018":487468
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":559515,
+  "Junio_2018":559515,
+  "Agosto_2018":559515
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":509365,
+  "Junio_2018":509365,
+  "Agosto_2018":509365
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":450000,
+  "Junio_2018":450000,
+  "Agosto_2018":450000
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"TNS",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Abril_2018":512147,
+  "Mayo_2018":440101,
+  "Junio_2018":458112,
+  "Agosto_2018":458112
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"TNS",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":614408,
+  "Junio_2018":614408,
+  "Agosto_2018":614408
+ },
+ {
+  "organismo_nombre":"Defensa Civil de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Abril_2018":0,
+  "Mayo_2018":633633,
+  "Junio_2018":633633,
+  "Agosto_2018":633633
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Codigotrabajo",
+  "homologado":"Contador(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2025":1,
+  "Febrero_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2025":1,
+  "Febrero_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2025":2,
+  "Febrero_2025":2
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2025":1,
+  "Febrero_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Codigotrabajo",
+  "homologado":"Kinesiólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2025":1,
+  "Febrero_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2025":1,
+  "Febrero_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2025":1,
+  "Febrero_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2025":2,
+  "Febrero_2025":3
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Contratohonorarios",
+  "homologado":"Notaría",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2025":1,
+  "Febrero_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación Municipal de Deportes y Recreación Tomé",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2025":1,
+  "Febrero_2025":1
+ }
+]

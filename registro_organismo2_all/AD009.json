@@ -1,0 +1,1199 @@
+[
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":3,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":12,
+  "Marzo_2024":7
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":16,
+  "Marzo_2024":13
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":100,
+  "Marzo_2024":64
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":6,
+  "Marzo_2024":7
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":34,
+  "Marzo_2024":32
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":2,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":8,
+  "Marzo_2024":8
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"18 a 30",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":8,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":37,
+  "Marzo_2024":34
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":11,
+  "Marzo_2024":18
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":67,
+  "Marzo_2024":84
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":6,
+  "Marzo_2024":9
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":4,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enfermero(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"18 a 30",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":31,
+  "Marzo_2024":15
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":44,
+  "Marzo_2024":11
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":2,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":88,
+  "Marzo_2024":44
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":95,
+  "Marzo_2024":77
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":62,
+  "Marzo_2024":58
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":45,
+  "Marzo_2024":49
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":33,
+  "Marzo_2024":29
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":24,
+  "Marzo_2024":15
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"S\/I",
+  "sexo":"desconocido",
+  "Enero_2020":2,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2020":15,
+  "Marzo_2024":7
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":9,
+  "Marzo_2024":4
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Matrón(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Matrón(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":6,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Matrón(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":2,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Matrón(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":19,
+  "Marzo_2024":21
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Matrón(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":2,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Matrón(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Matrón(a)",
+  "age_label":"S\/I",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Matrón(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"18 a 30",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":6,
+  "Marzo_2024":9
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":4,
+  "Marzo_2024":6
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":55,
+  "Marzo_2024":85
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":31,
+  "Marzo_2024":59
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":13,
+  "Marzo_2024":30
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":10,
+  "Marzo_2024":25
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":6,
+  "Marzo_2024":19
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":5,
+  "Marzo_2024":18
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"S\/I",
+  "sexo":"desconocido",
+  "Enero_2020":2,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2020":13,
+  "Marzo_2024":28
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Médico(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":15,
+  "Marzo_2024":35
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":7,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":6,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":48,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":72,
+  "Marzo_2024":17
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":15,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":11,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":8,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Odontólogo(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":2,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":14,
+  "Marzo_2024":6
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":14,
+  "Marzo_2024":8
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":40,
+  "Marzo_2024":27
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":76,
+  "Marzo_2024":75
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":33,
+  "Marzo_2024":15
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":26,
+  "Marzo_2024":21
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":25,
+  "Marzo_2024":12
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":9,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2020":2,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":4,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":14,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":29,
+  "Marzo_2024":7
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":11,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":15,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":11,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":12,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2020":2,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"18 a 30",
+  "sexo":"desconocido",
+  "Enero_2020":2,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":21,
+  "Marzo_2024":15
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":122,
+  "Marzo_2024":59
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":2,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":32,
+  "Marzo_2024":35
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":152,
+  "Marzo_2024":162
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":1,
+  "Marzo_2024":4
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":6,
+  "Marzo_2024":10
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":2,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"TNS",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":4,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":3,
+  "Marzo_2024":5
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":2,
+  "Marzo_2024":4
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":12,
+  "Marzo_2024":9
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":16,
+  "Marzo_2024":11
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":4,
+  "Marzo_2024":5
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":6,
+  "Marzo_2024":4
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Tecnólogo(a)",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":3,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":6,
+  "Marzo_2024":6
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":1,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":12,
+  "Marzo_2024":15
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":6,
+  "Marzo_2024":10
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":5,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":5,
+  "Marzo_2024":3
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Codigotrabajo",
+  "homologado":"Técnico",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Enseñanza Media",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":2,
+  "Marzo_2024":0
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":5
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Enero_2020":0,
+  "Marzo_2024":4
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"desconocido",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":26
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":0,
+  "Marzo_2024":13
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Enero_2020":2,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":4
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2020":0,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2020":0,
+  "Marzo_2024":2
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"TNS",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Enero_2020":0,
+  "Marzo_2024":1
+ },
+ {
+  "organismo_nombre":"Carabineros de Chile",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Enero_2020":3,
+  "Marzo_2024":0
+ }
+]

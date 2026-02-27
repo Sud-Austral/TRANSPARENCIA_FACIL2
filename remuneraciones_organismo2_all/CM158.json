@@ -1,0 +1,44 @@
+[
+ {
+  "organismo_nombre":"Corporación Cultural Ilustre Municipalidad de Rauco",
+  "base":"Contratohonorarios",
+  "homologado":"Auxiliar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Enero_2025":292398,
+  "Febrero_2025":292398,
+  "Marzo_2025":292398,
+  "Abril_2025":292398,
+  "Mayo_2025":292398,
+  "Junio_2025":292398,
+  "Julio_2025":292398
+ },
+ {
+  "organismo_nombre":"Corporación Cultural Ilustre Municipalidad de Rauco",
+  "base":"Contratohonorarios",
+  "homologado":"Contador(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2025":269006,
+  "Febrero_2025":269006,
+  "Marzo_2025":269006,
+  "Abril_2025":269006,
+  "Mayo_2025":269006,
+  "Junio_2025":269006,
+  "Julio_2025":269006
+ },
+ {
+  "organismo_nombre":"Corporación Cultural Ilustre Municipalidad de Rauco",
+  "base":"Contratohonorarios",
+  "homologado":"Director(a)",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Enero_2025":702000,
+  "Febrero_2025":702000,
+  "Marzo_2025":702000,
+  "Abril_2025":702000,
+  "Mayo_2025":702000,
+  "Junio_2025":702000,
+  "Julio_2025":702000
+ }
+]

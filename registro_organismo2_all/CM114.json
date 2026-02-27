@@ -1,0 +1,344 @@
+[
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2025":5,
+  "Diciembre_2025":5
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Administrativo(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Auxiliar",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"0",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"0",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Noviembre_2025":2,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Actividades Recreacionales",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Apoyo",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Deporte",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Diseñador(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Noviembre_2025":3,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Noviembre_2025":5,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2025":6,
+  "Diciembre_2025":3
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Noviembre_2025":17,
+  "Diciembre_2025":1
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Noviembre_2025":5,
+  "Diciembre_2025":5
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Noviembre_2025":5,
+  "Diciembre_2025":2
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Noviembre_2025":6,
+  "Diciembre_2025":5
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Noviembre_2025":2,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"S\/I",
+  "sexo":"desconocido",
+  "Noviembre_2025":2,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"S\/I",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Noviembre_2025":2,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"65 a 85",
+  "sexo":"mujer",
+  "Noviembre_2025":1,
+  "Diciembre_2025":0
+ },
+ {
+  "organismo_nombre":"Corporación de Artes y Cultura de Colina",
+  "base":"Contratohonorarios",
+  "homologado":"Supervisor(a)",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Noviembre_2025":1,
+  "Diciembre_2025":1
+ }
+]

@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radiografía de la Delincuencia en Chile - IDI 2015-2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --dark-blue: #0a2342;
+        --mid-blue: #2c5d63;
+        --teal: #2ca58d;
+        --light-green: #b9e28c;
+        --yellow: #f4d35e;
+        --red: #931621;
+        --light-blue: #89c2d9;
+        --light-bg: #f0f4f8;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: var(--light-bg);
+        color: #334155;
+      }
+
+      .chart-container {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        max-height: 50vh;
+      }
+
+      .section-card {
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(10, 35, 66, 0.08);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .section-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 25px rgba(10, 35, 66, 0.12);
+      }
+
+      .header-gradient {
+        background: linear-gradient(135deg, #0a2342 0%, #2c5d63 100%);
+        color: white;
+      }
+
+      .btn-primary {
+        background: linear-gradient(to right, var(--teal), var(--mid-blue));
+        color: white;
+        font-weight: 600;
+        padding: 10px 24px;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(44, 165, 141, 0.25);
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(44, 165, 141, 0.35);
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-right: 8px;
+        margin-bottom: 8px;
+      }
+
+      .badge-high {
+        background-color: rgba(147, 22, 33, 0.15);
+        color: var(--red);
+      }
+
+      .badge-medium {
+        background-color: rgba(44, 93, 99, 0.15);
+        color: var(--mid-blue);
+      }
+
+      .badge-low {
+        background-color: rgba(44, 165, 141, 0.15);
+        color: var(--teal);
+      }
+
+      .highlight-box {
+        border-left: 4px solid var(--teal);
+        background: rgba(44, 165, 141, 0.05);
+        padding: 16px;
+        border-radius: 0 8px 8px 0;
+        margin: 20px 0;
+      }
+
+      .flow-step {
+        transition: transform 0.2s ease-in-out;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 12px;
+        background: white;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      .flow-step:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+      }
+
+      .data-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+      }
+
+      .data-table th {
+        background-color: rgba(10, 35, 66, 0.05);
+        padding: 12px 15px;
+        text-align: left;
+        font-weight: 700;
+        color: var(--dark-blue);
+        border-bottom: 2px solid rgba(10, 35, 66, 0.1);
+      }
+
+      .data-table td {
+        padding: 12px 15px;
+        border-bottom: 1px solid rgba(10, 35, 66, 0.05);
+      }
+
+      .data-table tr:hover td {
+        background-color: rgba(10, 35, 66, 0.03);
+      }
+
+      .conclusion-card {
+        transition: all 0.3s ease;
+        height: 100%;
+      }
+
+      .conclusion-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      }
+
+      .ai-analysis {
+        background: linear-gradient(
+          135deg,
+          rgba(10, 35, 66, 0.03) 0%,
+          rgba(44, 93, 99, 0.03) 100%
+        );
+        border-radius: 16px;
+        border: 1px solid rgba(10, 35, 66, 0.1);
+      }
+
+      .map-controls {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        padding: 16px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      }
+
+      @media (max-width: 768px) {
+        .chart-container {
+          height: 300px;
+        }
+
+        .section-card {
+          padding: 20px;
+        }
+      }
+
+      
+        /* Asegura que el layer del fondo ocupe todo el ancho disponible */
+        #idiMap .layer.bg {
+            transform: scaleX(5.5); /* Aumenta el ancho visualmente */
+            transform-origin: center;
+        }
+
+        @media (min-width: 1024px) {
+            #idiMap .layer.bg {
+            transform: scaleX(6);
+            }
+        }
+</style>
+
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <div class="container mx-auto px-4 md:px-8 py-6">
+      <!-- Encabezado -->
+      <header class="header-gradient rounded-2xl p-8 mb-10 text-center">
+        <div class="max-w-4xl mx-auto">
+          <h1 class="text-3xl md:text-5xl font-bold text-white mb-4">
+            Radiografía de la Delincuencia en Chile
+          </h1>
+          <p class="text-xl text-blue-100 mb-6">
+            Análisis del Índice de Delincuencia Integrado (IDI) 2015-2024
+          </p>
+          <div class="flex flex-wrap justify-center gap-3">
+            <span class="badge badge-high">IDI Nacional: 142.7</span>
+            <span class="badge badge-medium">+42.7% vs 2015</span>
+            <span class="badge badge-low">Mejor región: Magallanes</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Sección Metodología -->
+      <section class="mb-14">
+        <div class="section-card p-6 md:p-8">
+          <h2
+            class="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-8"
+          >
+            ¿Qué es el Índice de Delincuencia Integrado (IDI)?
+          </h2>
+
+          <div class="max-w-4xl mx-auto text-center mb-10">
+            <p class="text-lg text-gray-600 leading-relaxed">
+              El IDI es una herramienta que mide la carga delictual real, yendo
+              más allá del simple conteo de delitos. Pondera los crímenes según
+              su gravedad y letalidad, ofreciendo una visión más precisa del
+              impacto en la seguridad. Un índice superior a 100 indica una
+              situación peor que el promedio nacional de 2015.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            <div>
+              <div class="bg-blue-50 rounded-xl p-5 mb-8">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">
+                  La Ponderación de la Severidad
+                </h3>
+                <p class="text-gray-600 mb-6">
+                  No todos los delitos impactan de la misma manera. El IDI
+                  asigna un "peso" o ponderador a cada tipo de delito de alto
+                  impacto. Los homicidios, por su gravedad extrema, tienen un
+                  peso 33 veces mayor que los delitos de drogas, lo que
+                  demuestra el enfoque del índice en la letalidad.
+                </p>
+              </div>
+              <div class="chart-container" style="height: 300px">
+                <canvas id="ponderadoresChart"></canvas>
+              </div>
+            </div>
+
+            <div>
+              <div class="bg-teal-50 rounded-xl p-5 mb-8">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">
+                  El Cálculo del Índice
+                </h3>
+              </div>
+              <div class="space-y-4">
+                <div class="flow-step bg-blue-50 border-l-4 border-blue-400">
+                  <div class="flex items-start">
+                    <span class="text-xl font-bold text-blue-700 mr-4">1</span>
+                    <p class="text-gray-800 font-medium">
+                      Se calcula la tasa de 6 delitos de alto impacto por cada
+                      100.000 habitantes en una zona.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flow-step bg-blue-100 border-l-4 border-blue-500">
+                  <div class="flex items-start">
+                    <span class="text-xl font-bold text-blue-800 mr-4">2</span>
+                    <p class="text-gray-800 font-medium">
+                      La tasa de cada delito se multiplica por su ponderador de
+                      severidad específico.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flow-step bg-teal-100 border-l-4 border-teal-500">
+                  <div class="flex items-start">
+                    <span class="text-xl font-bold text-teal-800 mr-4">3</span>
+                    <p class="text-gray-800 font-medium">
+                      Se suman todos los valores ponderados para obtener una
+                      Puntuación Bruta (PPD).
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flow-step bg-teal-600 border-l-4 border-teal-700">
+                  <div class="flex items-start">
+                    <span class="text-xl font-bold text-white mr-4">4</span>
+                    <p class="text-white font-medium">
+                      La puntuación se estandariza contra la base nacional de
+                      2015 (IDI = 100) para una fácil comparación.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panorama Regional -->
+      <section class="mb-14">
+        <div class="text-center mb-12">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
+            El Panorama Regional: Una Brecha Persistente
+          </h2>
+          <p class="text-gray-600 max-w-3xl mx-auto">
+            Datos obtenidos de "Índice de Delincuencia Anual por Región.csv" y
+            "Índice de Delincuencia Anual por Comuna.csv"
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="section-card p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">
+              Evolución del IDI en Regiones Clave (2015-2024)
+            </h3>
+            <p class="text-center text-gray-600 mb-6 max-w-2xl mx-auto">
+              Las regiones del norte, como Tarapacá, muestran una alta
+              volatilidad y picos preocupantes, mientras que Magallanes se
+              mantiene consistentemente como la región con menor carga
+              delictual.
+            </p>
+            <div class="chart-container">
+              <canvas id="tendenciaRegionalChart"></canvas>
+            </div>
+          </div>
+
+          <div class="section-card p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">
+              Ranking Regional (Promedio IDI 2015-2024)
+            </h3>
+            <p class="text-center text-gray-600 mb-6 max-w-2xl mx-auto">
+              Al promediar la década, la concentración de la delincuencia
+              ponderada en el norte y la capital es evidente. Tarapacá lidera
+              con un IDI promedio un 42.7% superior a la base nacional de 2015.
+            </p>
+            <div class="chart-container">
+              <canvas id="rankingRegionalChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Realidad Comunal -->
+      <section class="mb-14">
+        <div class="text-center mb-12">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
+            Realidad Comunal: Los Extremos del País
+          </h2>
+          <p class="text-gray-600 max-w-3xl mx-auto">
+            El análisis a nivel comunal revela las realidades más dispares.
+            Mientras algunas comunas urbanas y fronterizas enfrentan desafíos
+            críticos, muchas zonas rurales o aisladas registran una incidencia
+            de delitos de alto impacto casi nula.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="section-card p-6">
+            <div class="flex items-center mb-6">
+              <div class="h-3 w-3 bg-red-500 rounded-full mr-2"></div>
+              <h3 class="text-xl font-bold text-red-600">
+                Top 10 Comunas con Mayor IDI Promedio
+              </h3>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th class="text-left">Comuna</th>
+                    <th class="text-right">IDI Promedio</th>
+                  </tr>
+                </thead>
+                <tbody id="topComunasTable">
+                  <!-- Datos generados por JavaScript -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="section-card p-6">
+            <div class="flex items-center mb-6">
+              <div class="h-3 w-3 bg-teal-500 rounded-full mr-2"></div>
+              <h3 class="text-xl font-bold text-teal-600">
+                Top 10 Comunas con Menor IDI Promedio
+              </h3>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th class="text-left">Comuna</th>
+                    <th class="text-right">IDI Promedio</th>
+                  </tr>
+                </thead>
+                <tbody id="bottomComunasTable">
+                  <!-- Datos generados por JavaScript -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mapa -->
+      <section class="mb-14">
+        <div class="section-card p-6 md:p-8">
+          <div class="text-center mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
+              Mapa de Distribución del IDI por Comuna
+            </h2>
+            <p class="text-gray-600 max-w-3xl mx-auto">
+              Explora visualmente la distribución del Índice de Delincuencia
+              Integrado (IDI) a lo largo de las comunas de Chile.
+            </p>
+          </div>
+
+          <div class="map-controls mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2"
+                  >Ver mapa por:</label
+                >
+                <select
+                  id="mapViewSelect"
+                  class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
+                >
+                  <option value="idi_average">IDI Promedio (Continuo)</option>
+                  <option value="groups">Clasificación por Grupos</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2"
+                  >Filtrar por Región:</label
+                >
+                <select
+                  id="regionMapSelect"
+                  class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
+                >
+                  <option value="all">Todas las Regiones</option>
+                  <!-- Options will be populated by JS -->
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div
+            class="chart-container rounded-xl overflow-hidden"
+            style="height: 600px; max-height: 70vh"
+          >
+          <div id="idiMap2" class="w-full h-full"></div>
+          </div>
+          <!--
+          <div class="rounded-xl overflow-hidden" style="height: 600px;">
+  <div id="idiMap" style="width: 100%; height: 100%;"></div>
+</div>-->
+
+
+         
+
+            
+
+          <div
+            id="mapLegend"
+            class="mt-6 p-5 bg-gray-50 rounded-xl border border-gray-200 hidden"
+          >
+            <h3 class="text-lg font-bold text-gray-800 mb-3">
+              Leyenda de Grupos IDI:
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              <div class="flex items-center">
+                <span class="w-4 h-4 rounded-full mr-2 bg-red-600"></span
+                ><span class="text-gray-700"
+                  >Grupo A: Focos Críticos (>200)</span
+                >
+              </div>
+              <div class="flex items-center">
+                <span class="w-4 h-4 rounded-full mr-2 bg-blue-900"></span
+                ><span class="text-gray-700"
+                  >Grupo B: Alta Preocupación (150-199.9)</span
+                >
+              </div>
+              <div class="flex items-center">
+                <span class="w-4 h-4 rounded-full mr-2 bg-blue-700"></span
+                ><span class="text-gray-700"
+                  >Grupo C: Desafíos Moderados (100-149.9)</span
+                >
+              </div>
+              <div class="flex items-center">
+                <span class="w-4 h-4 rounded-full mr-2 bg-teal-500"></span
+                ><span class="text-gray-700"
+                  >Grupo D: Menor Riesgo (50-99.9)</span
+                >
+              </div>
+              <div class="flex items-center">
+                <span class="w-4 h-4 rounded-full mr-2 bg-green-400"></span
+                ><span class="text-gray-700"
+                  >Grupo E: Baja Incidencia (<50)</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Análisis IA -->
+      <section class="mb-14">
+        <div class="section-card p-6 md:p-8 ai-analysis">
+          <div class="text-center mb-8">
+            <h2
+              class="text-2xl md:text-3xl font-bold text-gray-800 mb-3 flex items-center justify-center"
+            >
+              Análisis y Recomendaciones con IA
+              <span
+                class="ml-3 bg-gradient-to-r from-teal-400 to-teal-600 text-white text-sm font-bold py-1 px-3 rounded-full"
+                >NUEVO</span
+              >
+            </h2>
+            <p class="text-gray-600 max-w-3xl mx-auto">
+              Selecciona una región para obtener un análisis de seguridad
+              generado por inteligencia artificial, incluyendo posibles áreas de
+              intervención y factores relevantes.
+            </p>
+          </div>
+
+          <div class="max-w-3xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+              <div class="md:col-span-2">
+                <label class="block text-sm font-medium text-gray-700 mb-2"
+                  >Selecciona una Región:</label
+                >
+                <select
+                  id="regionSelect"
+                  class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
+                >
+                  <!-- Options populated by JS -->
+                </select>
+              </div>
+
+              <div class="flex items-end">
+                <button
+                  id="generateAnalysisBtn"
+                  class="btn-primary w-full h-[46px] flex items-center justify-center"
+                >
+                  <span>Generar Análisis</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 ml-2"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div
+              id="analysisOutput"
+              class="bg-white p-6 rounded-xl border border-gray-200 min-h-[200px] flex flex-col justify-center"
+            >
+              <p class="text-center text-gray-500 italic">
+                Selecciona una región y haz clic en el botón para generar el
+                análisis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Conclusiones -->
+      <section class="mb-14">
+        <div class="text-center mb-10">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-800">
+            Conclusiones Clave
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div
+            class="conclusion-card bg-white p-6 rounded-xl border border-gray-200"
+          >
+            <div class="bg-blue-50 p-4 rounded-lg mb-4">
+              <h3 class="text-lg font-bold text-blue-800">
+                Focalización Geográfica
+              </h3>
+            </div>
+            <p class="text-gray-600">
+              La delincuencia de alto impacto se concentra marcadamente en las
+              regiones del norte y la Región Metropolitana. Esto exige políticas
+              de seguridad diferenciadas y una asignación de recursos
+              focalizada.
+            </p>
+          </div>
+
+          <div
+            class="conclusion-card bg-white p-6 rounded-xl border border-gray-200"
+          >
+            <div class="bg-teal-50 p-4 rounded-lg mb-4">
+              <h3 class="text-lg font-bold text-teal-800">
+                El Peso de la Violencia
+              </h3>
+            </div>
+            <p class="text-gray-600">
+              La metodología del IDI, al dar un alto peso a delitos como
+              homicidios, revela que la "calidad" (gravedad) de la delincuencia
+              es más importante que la "cantidad" para entender la carga de
+              seguridad de un territorio.
+            </p>
+          </div>
+
+          <div
+            class="conclusion-card bg-white p-6 rounded-xl border border-gray-200"
+          >
+            <div class="bg-green-50 p-4 rounded-lg mb-4">
+              <h3 class="text-lg font-bold text-green-700">
+                El Contexto Importa
+              </h3>
+            </div>
+            <p class="text-gray-600">
+              Un IDI alto en una comuna pequeña y fronteriza como Colchane tiene
+              un origen distinto a uno en una comuna densa como Santiago, lo que
+              demuestra que las estrategias de seguridad deben ser contextuales.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pie de página -->
+      <footer class="text-center mt-12 text-gray-500 text-sm">
+        <p>
+          Fuente de datos: Análisis basado en la metodología del Índice de
+          Delincuencia Integrado y datos del CEAD (2015-2024).
+        </p>
+        <p class="mt-2">
+          Esta es una visualización de datos generada para fines informativos.
+          Última actualización: Agosto 2024
+        </p>
+      </footer>
+    </div>
+
+    <script src="comunas.js"></script>
+    <script src="regiones.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+  // Coordenadas centradas en Chile
+  const map = L.map("idiMap2").setView([-30.5, -71], 5);
+
+  // Fondo base
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "© OpenStreetMap contributors",
+  }).addTo(map);
+
+  // Escala de colores (puedes ajustar los valores y colores según el IDI)
+  function getColor(d) {
+    return d > 15
+      ? "#800026"
+      : d > 12
+      ? "#BD0026"
+      : d > 10
+      ? "#E31A1C"
+      : d > 8
+      ? "#FC4E2A"
+      : d > 6
+      ? "#FD8D3C"
+      : d > 4
+      ? "#FEB24C"
+      : d > 2
+      ? "#FED976"
+      : "#FFEDA0";
+  }
+
+  function style(feature) {
+    return {
+      fillColor: getColor(feature.properties.idi_promedio || 0),
+      weight: 1,
+      opacity: 1,
+      color: "white",
+      dashArray: "3",
+      fillOpacity: 0.7,
+    };
+  }
+
+  // Cargar GeoJSON
+  fetch("Comunas_simpli_GeoJson_Chile (1).json")
+    .then((res) => res.json())
+    .then((geojsonData) => {
+      // Si no tienes los valores IDI directamente en el GeoJSON, deberás unirlos aquí
+      L.geoJson(geojsonData, {
+        style: style,
+        onEachFeature: function (feature, layer) {
+          const props = feature.properties;
+          layer.bindPopup(
+            `<strong>${props.Nom_com}</strong><br>IDI promedio: ${
+              props.idi_promedio ?? "N/A"
+            }`
+          );
+        },
+      }).addTo(map);
+    })
+    .catch((err) => console.error("Error cargando el GeoJSON:", err));
+</script>
+
+
+
+    <script>
+
+
+
+
+
+
+      const regionCenters = {
+        "Tarapacá": { lat: -20.2, lon: -69.3, zoom: 6 },
+        "Metropolitana": { lat: -33.4, lon: -70.6, zoom: 7 },
+        "Arica y Parinacota": { lat: -18.5, lon: -70.3, zoom: 6 },
+        "Antofagasta": { lat: -23.6, lon: -70.4, zoom: 6 },
+        "Atacama": { lat: -27.3, lon: -70.6, zoom: 6 },
+        "Valparaíso": { lat: -32.9, lon: -71.5, zoom: 7 },
+        "Coquimbo": { lat: -29.9, lon: -71.2, zoom: 6 },
+        "Biobío": { lat: -37.5, lon: -72.8, zoom: 6 },
+        "Los Lagos": { lat: -41.5, lon: -73.2, zoom: 6 },
+        "O'Higgins": { lat: -34.5, lon: -71.0, zoom: 6 },
+        "Aysén": { lat: -45.4, lon: -72.7, zoom: 15 },
+        "La Araucanía": { lat: -38.7, lon: -72.6, zoom: 6 },
+        "Los Ríos": { lat: -39.8, lon: -72.2, zoom: 6 },
+        "Maule": { lat: -35.4, lon: -71.6, zoom: 6 },
+        "Ñuble": { lat: -36.5, lon: -72.1, zoom: 6 },
+        "Magallanes": { lat: -53.2, lon: -70.9, zoom: 4 },
+      };
+
+      const unique_regions_for_js = [
+        ...new Set(merged_commune_data_for_js.map((x) => x.region)),
+      ].sort();
+
+      const wrapLabel = (label, maxWidth) => {
+        if (label.length <= maxWidth) {
+          return label;
+        }
+        const words = label.split(" ");
+        const lines = [];
+        let currentLine = "";
+        words.forEach((word) => {
+          if ((currentLine + " " + word).length > maxWidth) {
+            lines.push(currentLine.trim());
+            currentLine = "";
+          }
+          currentLine += word + " ";
+        });
+        lines.push(currentLine.trim());
+        return lines.filter((line) => line);
+      };
+
+      const tooltipTitleCallback = (tooltipItems) => {
+        const item = tooltipItems[0];
+        let label = item.chart.data.labels[item.dataIndex];
+        if (Array.isArray(label)) {
+          return label.join(" ");
+        }
+        return label;
+      };
+
+      const commonChartOptions = (moreOptions = {}) => ({
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: "bottom",
+            labels: {
+              font: {
+                family: "'Inter', sans-serif",
+                size: 12,
+              },
+            },
+          },
+          tooltip: {
+            callbacks: {
+              title: tooltipTitleCallback,
+            },
+            backgroundColor: "#0A2342",
+            titleFont: {
+              weight: "bold",
+              family: "'Inter', sans-serif",
+              size: 13,
+            },
+            bodyFont: {
+              family: "'Inter', sans-serif",
+              size: 12,
+            },
+            padding: 12,
+            displayColors: false,
+          },
+        },
+        ...moreOptions,
+      });
+
+      const chartColors = {
+        darkBlue: "#0A2342",
+        midBlue: "#2C5D63",
+        teal: "#2CA58D",
+        lightGreen: "#B9E28C",
+        yellow: "#F4D35E",
+        red: "#931621",
+        lightBlue: "#89C2D9",
+      };
+
+      // Initialize ponderadores chart
+      const ponderadoresData = {
+        labels: [
+          "Homicidios y Femicidios",
+          "Violaciones y Delitos Sexuales",
+          "Robos con Violencia",
+          "Delitos de Armas",
+          "Violencia Intrafamiliar",
+          "Delitos de Drogas",
+        ],
+        datasets: [
+          {
+            label: "Ponderador de Severidad",
+            data: [1000, 200, 150, 75, 40, 30],
+            backgroundColor: [
+              chartColors.red,
+              chartColors.darkBlue,
+              chartColors.midBlue,
+              chartColors.teal,
+              chartColors.lightGreen,
+              chartColors.yellow,
+            ],
+            borderColor: "#FFFFFF",
+            borderWidth: 2,
+            hoverOffset: 4,
+          },
+        ],
+      };
+
+      new Chart(document.getElementById("ponderadoresChart"), {
+        type: "doughnut",
+        data: ponderadoresData,
+        options: {
+          ...commonChartOptions(),
+          plugins: {
+            legend: {
+              position: "right",
+              labels: {
+                boxWidth: 15,
+                padding: 15,
+                font: {
+                  size: 11,
+                },
+              },
+            },
+            tooltip: {
+              callbacks: {
+                label: function (context) {
+                  return `${context.label}: ${context.raw} puntos`;
+                },
+              },
+            },
+          },
+          cutout: "50%",
+        },
+      });
+      const anios = [...new Set(regionalData.map((d) => d.anio))].sort();
+      const regionesTendencia = [
+        ...new Set(regionalData.map((x) => x.region)),
+      ].sort();
+      const datasetsTendencia = regionesTendencia.map((region, index) => {
+        return {
+          label: region,
+          data: anios.map((anio) => {
+            const entry = regionalData.find(
+              (d) => d.region === region && d.anio === anio
+            );
+            return entry ? entry.indice : null;
+          }),
+          borderColor: [
+            chartColors.red,
+            chartColors.darkBlue,
+            chartColors.midBlue,
+            chartColors.teal,
+          ][index],
+          backgroundColor: [
+            chartColors.red,
+            chartColors.darkBlue,
+            chartColors.midBlue,
+            chartColors.teal,
+          ][index],
+          tension: 0.3,
+          fill: false,
+          borderWidth: 3,
+          pointRadius: 5,
+          pointHoverRadius: 8,
+        };
+      });
+
+      new Chart(document.getElementById("tendenciaRegionalChart"), {
+        type: "line",
+        data: {
+          labels: anios,
+          datasets: datasetsTendencia,
+        },
+        options: {
+          ...commonChartOptions(),
+          scales: {
+            y: {
+              beginAtZero: true,
+              title: {
+                display: true,
+                text: "IDI (Base 100 = Nacional 2015)",
+                font: {
+                  size: 12,
+                },
+              },
+              grid: {
+                color: "rgba(0,0,0,0.05)",
+              },
+            },
+            x: {
+              grid: {
+                display: false,
+              },
+            },
+          },
+        },
+      });
+
+      const promedioRegionalData = [
+        { region: "Tarapacá", promedio: 142.66 },
+        { region: "Metropolitana", promedio: 135.34 },
+        { region: "Arica y Parinacota", promedio: 125.66 },
+        { region: "Antofagasta", promedio: 105.27 },
+        { region: "Atacama", promedio: 97.22 },
+        { region: "Valparaíso", promedio: 92.05 },
+        { region: "Coquimbo", promedio: 85.34 },
+        { region: "Biobío", promedio: 85.23 },
+        { region: "Los Lagos", promedio: 82.04 },
+        { region: "O'Higgins", promedio: 80.29 },
+        { region: "Aysén", promedio: 79.52 },
+        { region: "La Araucanía", promedio: 79.66 },
+        { region: "Los Ríos", promedio: 75.43 },
+        { region: "Maule", promedio: 73.5 },
+        { region: "Ñuble", promedio: 68.01 },
+        { region: "Magallanes", promedio: 58.22 },
+      ].sort((a, b) => b.promedio - a.promedio);
+
+      new Chart(document.getElementById("rankingRegionalChart"), {
+        type: "bar",
+        data: {
+          labels: promedioRegionalData.map((d) => d.region),
+          datasets: [
+            {
+              label: "IDI Promedio (2015-2024)",
+              data: promedioRegionalData.map((d) => d.promedio),
+              backgroundColor: promedioRegionalData.map((d) =>
+                d.promedio > 100 ? chartColors.red : chartColors.teal
+              ),
+              borderRadius: 4,
+            },
+          ],
+        },
+        options: {
+          ...commonChartOptions(),
+          indexAxis: "y",
+          scales: {
+            x: {
+              beginAtZero: true,
+              title: {
+                display: true,
+                text: "IDI (Base 100 = Nacional 2015)",
+                font: {
+                  size: 12,
+                },
+              },
+              grid: {
+                color: "rgba(0,0,0,0.05)",
+              },
+            },
+            y: {
+              grid: {
+                display: false,
+              },
+            },
+          },
+          plugins: {
+            legend: { display: false },
+          },
+        },
+      });
+
+      // Populate top and bottom communes tables
+      const allComunasData = merged_commune_data_for_js;
+      const topComunas = [...allComunasData]
+        .sort((a, b) => b.promedioIDI - a.promedioIDI)
+        .slice(0, 10);
+      const bottomComunas = [...allComunasData]
+        .sort((a, b) => a.promedioIDI - b.promedioIDI)
+        .slice(0, 10);
+
+      const topComunasTable = document.getElementById("topComunasTable");
+      topComunasTable.innerHTML = "";
+      topComunas.forEach((c) => {
+        const row = document.createElement("tr");
+        row.className = "hover:bg-red-50";
+        row.innerHTML = `
+                <td class="font-medium">${c.comuna}</td>
+                <td class="text-right font-bold text-red-600">${c.promedioIDI.toFixed(
+                  2
+                )}</td>
+            `;
+        topComunasTable.appendChild(row);
+      });
+
+      const bottomComunasTable = document.getElementById("bottomComunasTable");
+      bottomComunasTable.innerHTML = "";
+      bottomComunas.forEach((c) => {
+        const row = document.createElement("tr");
+        row.className = "hover:bg-green-50";
+        row.innerHTML = `
+                <td class="font-medium">${c.comuna}</td>
+                <td class="text-right font-bold text-teal-600">${c.promedioIDI.toFixed(
+                  2
+                )}</td>
+            `;
+        bottomComunasTable.appendChild(row);
+      });
+
+      // Map functionality
+      const getCommuneGroup = (idi) => {
+        if (idi > 200)
+          return { name: "Grupo A: Focos Críticos", color: chartColors.red };
+        if (idi >= 150)
+          return {
+            name: "Grupo B: Alta Preocupación",
+            color: chartColors.darkBlue,
+          };
+        if (idi >= 100)
+          return {
+            name: "Grupo C: Desafíos Moderados",
+            color: chartColors.midBlue,
+          };
+        if (idi >= 50)
+          return { name: "Grupo D: Menor Riesgo", color: chartColors.teal };
+        return {
+          name: "Grupo E: Baja Incidencia",
+          color: chartColors.lightGreen,
+        };
+      };
+
+      const drawMap = (viewType, selectedRegion) => {
+        let filteredCommunes = allComunasData;
+        if (selectedRegion && selectedRegion !== "all") {
+          filteredCommunes = allComunasData.filter(
+            (d) => d.region === selectedRegion
+          );
+        }
+
+        const mapIDIValues = filteredCommunes.map((d) => d.promedioIDI);
+        const mapLats = filteredCommunes.map((d) => d.latitud);
+        const mapLons = filteredCommunes.map((d) => d.longitud);
+        let markerColors;
+        let showColorbar;
+        let hoverText;
+
+        if (viewType === "groups") {
+          markerColors = filteredCommunes.map(
+            (d) => getCommuneGroup(d.promedioIDI).color
+          );
+          showColorbar = false;
+          hoverText = filteredCommunes.map(
+            (d) =>
+              `${d.comuna} (Grupo: ${
+                getCommuneGroup(d.promedioIDI).name
+              }, IDI: ${d.promedioIDI.toFixed(2)})`
+          );
+          document.getElementById("mapLegend").classList.remove("hidden");
+        } else {
+          markerColors = mapIDIValues;
+          showColorbar = true;
+          hoverText = filteredCommunes.map(
+            (d) => `${d.comuna} (IDI: ${d.promedioIDI.toFixed(2)})`
+          );
+          document.getElementById("mapLegend").classList.add("hidden");
+        }
+
+        const mapData = [
+          {
+            type: "scattergeo",
+            locationmode: "country names",
+            lat: mapLats,
+            lon: mapLons,
+            mode: "markers",
+            text: hoverText,
+            hoverinfo: "text",
+            marker: {
+              size: 8,
+              opacity: 0.8,
+              color: markerColors,
+              colorscale: [
+                [0, chartColors.teal],
+                [0.5, chartColors.lightGreen],
+                [0.6, chartColors.yellow],
+                [0.8, chartColors.midBlue],
+                [1, chartColors.red],
+              ],
+              cmin: 0,
+              cmax:
+                Math.max(...mapIDIValues) > 200
+                  ? Math.max(...mapIDIValues)
+                  : 200,
+              colorbar: {
+                title: "IDI Promedio",
+                titleside: "right",
+                outlinecolor: "rgba(68, 68, 68, 0)",
+                ticks: "outside",
+                ticklen: 3,
+                len: 0.5,
+                x: 0.95,
+                y: 0.5,
+                thickness: 20,
+              },
+              showscale: showColorbar,
+            },
+          },
+        ];
+        /*
+        const mapLayout = {
+          
+            geo: {
+            scope: "south america",
+            showland: true,
+            landcolor: "#EBF4FA",
+            countrycolor: "#A0AEC0",
+            coastlinecolor: "#A0AEC0",
+            showcoastlines: true,
+            showcountries: true,
+            countrywidth: 0.5,
+            subunitcolor: "#A0AEC0",
+            subunitwidth: 0.5,
+            lataxis: { range: [-56, -17] },
+            lonaxis: { range: [-75, -66] },
+            center: { lat: -35, lon: -70 },
+            projection: { type: "mercator" },
+          },
+          
+
+
+          /////////////////////
+          margin: { l: 0, r: 0, t: 0, b: 0 },
+          paper_bgcolor: "rgba(0,0,0,0)",
+          plot_bgcolor: "rgba(0,0,0,0)",
+          height: 600,
+          autosize: true,
+        };
+            */
+        ////////////////////////////
+        let centerConfig = {
+          center: { lat: -35, lon: -70 },
+          lataxis: { range: [-56, -17] },
+          lonaxis: { range: [-75, -66] },
+        };
+
+        if (selectedRegion !== "all" && regionCenters[selectedRegion]) {
+          const { lat, lon, zoom } = regionCenters[selectedRegion];
+          centerConfig = {
+            center: { lat, lon },
+            lataxis: { range: [lat - zoom, lat + zoom] },
+            lonaxis: { range: [lon - zoom, lon + zoom] },
+          };
+        }
+
+        const mapLayout = {
+          geo: {
+            scope: "south america",
+            showland: true,
+            landcolor: "#EBF4FA",
+            countrycolor: "#A0AEC0",
+            coastlinecolor: "#A0AEC0",
+            showcoastlines: true,
+            showcountries: true,
+            countrywidth: 0.5,
+            subunitcolor: "#A0AEC0",
+            subunitwidth: 0.5,
+            domain: {
+                x: [0, 1], // ocupa todo el ancho
+                y: [0, 1]  // y todo el alto
+            },
+            lonaxis: { range: [-100, -80] },
+            lataxis: { range: [-56, -17] },
+            projection: { type: "mercator" },
+            ...centerConfig,
+          },
+          margin: { l: 0, r: 0, t: 0, b: 0 },
+          paper_bgcolor: "rgba(0,0,0,0)",
+          plot_bgcolor: "rgba(0,0,0,0)",
+          height: 600,
+          autosize: true,
+        };
+
+        Plotly.newPlot("idiMap", mapData, mapLayout, {
+          displayModeBar: false,
+          //staticPlot: false,
+          responsive: true,
+          useResizeHandler: true,
+        });
+      };
+
+      const mapViewSelect = document.getElementById("mapViewSelect");
+      const regionMapSelect = document.getElementById("regionMapSelect");
+
+      // Populate region map dropdown
+      unique_regions_for_js.forEach((region) => {
+        const option = document.createElement("option");
+        option.value = region;
+        option.textContent = region;
+        regionMapSelect.appendChild(option);
+      });
+
+      // Initialize map
+      document.addEventListener("DOMContentLoaded", () => {
+        drawMap(mapViewSelect.value, regionMapSelect.value);
+      });
+
+      mapViewSelect.addEventListener("change", () => {
+        drawMap(mapViewSelect.value, regionMapSelect.value);
+      });
+
+      regionMapSelect.addEventListener("change", () => {
+        drawMap(mapViewSelect.value, regionMapSelect.value);
+      });
+
+      // AI Analysis functionality
+      const regionSelect = document.getElementById("regionSelect");
+      const generateAnalysisBtn = document.getElementById(
+        "generateAnalysisBtn"
+      );
+      const analysisOutput = document.getElementById("analysisOutput");
+
+      // Populate region select dropdown
+      unique_regions_for_js.forEach((region) => {
+        const option = document.createElement("option");
+        option.value = region;
+        option.textContent = region;
+        regionSelect.appendChild(option);
+      });
+
+      generateAnalysisBtn.addEventListener("click", async () => {
+        const selectedRegion = regionSelect.value;
+        analysisOutput.innerHTML =
+          '<p class="text-center text-gray-500 animate-pulse">Generando análisis, por favor espera...</p>';
+
+        // Simulate API call with timeout
+        setTimeout(() => {
+          analysisOutput.innerHTML = `
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="text-lg font-bold text-gray-800 mb-2">Análisis de la Situación en ${selectedRegion}:</h4>
+                            <p class="text-gray-700">La región de ${selectedRegion} muestra un Índice de Delincuencia Integrado (IDI) promedio de 135.2 para el período 2015-2024, lo que indica una situación de seguridad significativamente más compleja que el promedio nacional de referencia (100). Esta región ha experimentado un aumento constante en los delitos de alto impacto, particularmente en zonas urbanas y áreas fronterizas.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-lg font-bold text-gray-800 mb-2">Recomendaciones:</h4>
+                            <ul class="list-disc list-inside space-y-2 pl-5">
+                                <li class="text-gray-700"><span class="font-medium">Fortalecimiento de la vigilancia en zonas críticas:</span> Implementar patrullas integradas en comunas con IDI superior a 150.</li>
+                                <li class="text-gray-700"><span class="font-medium">Programas de prevención social:</span> Desarrollar iniciativas focalizadas en jóvenes en situación de riesgo en las comunas más afectadas.</li>
+                                <li class="text-gray-700"><span class="font-medium">Coordinación interregional:</span> Establecer mecanismos de colaboración con regiones vecinas para combatir la delincuencia transfronteriza.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pt-4">
+                            <h4 class="text-lg font-bold text-gray-800 mb-2">Fuentes Bibliográficas:</h4>
+                            <ul class="list-disc list-inside space-y-1 text-gray-600 text-sm pl-5">
+                                <li>Metodología para el Desarrollo de un Índice de Delincuencia Integrado</li>
+                                <li>Índice de Delincuencia Anual por Comuna.csv</li>
+                                <li>Índice de Delincuencia Anual por Región.csv</li>
+                                <li>Coordenadas Comunas Chile.xlsx - Coordenadas Comunas Chile.csv</li>
+                            </ul>
+                        </div>
+                    </div>
+                `;
+        }, 1500);
+      });
+    </script>
+  </body>
+</html>

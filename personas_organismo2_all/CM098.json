@@ -1,0 +1,50 @@
+[
+ {
+  "organismo_nombre":"Corporación Cultural Municipal de La Comuna de Villarrica",
+  "base":"Codigotrabajo",
+  "homologado":"Enseñanza Media",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Junio_2024":1,
+  "Julio_2024":1,
+  "Agosto_2024":1,
+  "Septiembre_2024":1,
+  "Octubre_2024":1
+ },
+ {
+  "organismo_nombre":"Corporación Cultural Municipal de La Comuna de Villarrica",
+  "base":"Contratohonorarios",
+  "homologado":"Auditor(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Junio_2024":1,
+  "Julio_2024":1,
+  "Agosto_2024":1,
+  "Septiembre_2024":1,
+  "Octubre_2024":0
+ },
+ {
+  "organismo_nombre":"Corporación Cultural Municipal de La Comuna de Villarrica",
+  "base":"Contratohonorarios",
+  "homologado":"Ingeniero(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Junio_2024":1,
+  "Julio_2024":1,
+  "Agosto_2024":1,
+  "Septiembre_2024":1,
+  "Octubre_2024":0
+ },
+ {
+  "organismo_nombre":"Corporación Cultural Municipal de La Comuna de Villarrica",
+  "base":"Contratohonorarios",
+  "homologado":"Técnico",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Junio_2024":1,
+  "Julio_2024":1,
+  "Agosto_2024":1,
+  "Septiembre_2024":1,
+  "Octubre_2024":0
+ }
+]

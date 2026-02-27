@@ -1,0 +1,50 @@
+[
+ {
+  "organismo_nombre":"Corporación Deportiva Municipal de San Pedro de La Paz",
+  "base":"Codigotrabajo",
+  "homologado":"0",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Noviembre_2024":1496544
+ },
+ {
+  "organismo_nombre":"Corporación Deportiva Municipal de San Pedro de La Paz",
+  "base":"Codigotrabajo",
+  "homologado":"Sin Clasificar",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Noviembre_2024":2494240
+ },
+ {
+  "organismo_nombre":"Corporación Deportiva Municipal de San Pedro de La Paz",
+  "base":"Contratohonorarios",
+  "homologado":"0",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Noviembre_2024":360360
+ },
+ {
+  "organismo_nombre":"Corporación Deportiva Municipal de San Pedro de La Paz",
+  "base":"Contratohonorarios",
+  "homologado":"Administrativo(a)",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Noviembre_2024":600601
+ },
+ {
+  "organismo_nombre":"Corporación Deportiva Municipal de San Pedro de La Paz",
+  "base":"Contratohonorarios",
+  "homologado":"Auditor(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2024":314400
+ },
+ {
+  "organismo_nombre":"Corporación Deportiva Municipal de San Pedro de La Paz",
+  "base":"Contratohonorarios",
+  "homologado":"Sin Clasificar",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Noviembre_2024":314400
+ }
+]

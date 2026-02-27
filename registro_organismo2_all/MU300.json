@@ -1,0 +1,258 @@
+[
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Asistente Social",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Asistente Social",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Docente",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Enfermero(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Enfermero(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Kinesiólogo(a)",
+  "age_label":"18 a 30",
+  "sexo":"desconocido",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Kinesiólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Kinesiólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Matrón(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Matrón(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Médico(a)",
+  "age_label":"S\/I",
+  "sexo":"hombre",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Nutricionista",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Nutricionista",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Nutricionista",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Otros",
+  "age_label":"50 a 65",
+  "sexo":"mujer",
+  "Julio_2025":2
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Psicólogo(a)",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Psicólogo(a)",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":4
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Químico(a) Farmacéutico(a)",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"Químico(a) Farmacéutico(a)",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"TNS",
+  "age_label":"18 a 30",
+  "sexo":"hombre",
+  "Julio_2025":1
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"TNS",
+  "age_label":"18 a 30",
+  "sexo":"mujer",
+  "Julio_2025":5
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"TNS",
+  "age_label":"30 a 50",
+  "sexo":"hombre",
+  "Julio_2025":3
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"TNS",
+  "age_label":"30 a 50",
+  "sexo":"mujer",
+  "Julio_2025":6
+ },
+ {
+  "organismo_nombre":"Municipalidad de San Rafael",
+  "base":"Contratohonorarios",
+  "homologado":"TNS",
+  "age_label":"65 a 85",
+  "sexo":"hombre",
+  "Julio_2025":2
+ }
+]
