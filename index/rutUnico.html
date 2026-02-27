@@ -615,12 +615,14 @@
 
     <!-- Filters -->
     <section class="filter-bar">
-      <div class="filter-group">
-        <i data-lucide="landmark" class="filter-icon" style="width: 16px;"></i>
+
+
+      <div id="municipal-filter-group" class="filter-group" style="display: none;">
+        <i data-lucide="building" class="filter-icon" style="width: 16px;"></i>
         <select id="tipo-filter" class="filter-input">
           <option value="">Todos los tipos</option>
-          <option value="0">Central</option>
-          <option value="1">Municipal</option>
+          <option value="1">Sólo Municipales</option>
+          <option value="0">Otros Organismos</option>
         </select>
       </div>
 
@@ -685,6 +687,7 @@
     </section>
   </main>
 
+  <script src="config/municipal.js"></script>
   <script src="organismos.js"></script>
   <script src="organismoMunicipal.js"></script>
   <script src="organismosCodigo.js"></script>
@@ -696,7 +699,7 @@
     const TABLE_EL = document.getElementById("data-table");
     const YEAR_FILTER = document.getElementById("year-filter");
     const PADRE_FILTER = document.getElementById("padre-filter");
-    const TIPO_FILTER = document.getElementById("tipo-filter");
+
     const SEARCH_INPUT = document.getElementById("search-input");
 
     let rawData = [];
@@ -721,16 +724,19 @@
         const response = await fetch(DATA_URL);
         if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
         rawData = await response.json();
-        data = rawData;
+
+        // Aplicar filtrado basado en filtroMuni (de config/municipal.js)
+        if (typeof filtroMuni !== 'undefined' && filtroMuni === false) {
+          // Solo municipales
+          data = rawData.filter(r => organismoMunicipal[r.organismo_nombre] === 1);
+        } else {
+          // Todos
+          data = rawData;
+        }
+
         filteredData = [...data];
 
-        const padresUnicos = [...new Set(Object.values(organismoPadres))].sort();
-        padresUnicos.forEach(p => {
-          const opt = document.createElement("option");
-          opt.value = p; opt.textContent = p;
-          PADRE_FILTER.appendChild(opt);
-        });
-
+        // Extraer todos los meses y años disponibles inicialmente
         const allKeys = new Set();
         data.forEach(row => {
           Object.keys(row).forEach(k => { if (k !== "organismo_nombre") allKeys.add(k); });
@@ -752,11 +758,8 @@
         allYears = Array.from(yearsSet).sort((a, b) => b - a);
         maxYear = allYears[0];
 
-        allYears.forEach(y => {
-          const opt = document.createElement("option");
-          opt.value = y; opt.textContent = y;
-          YEAR_FILTER.appendChild(opt);
-        });
+        // Poblar filtros inicialmente
+        updateFilterOptions(true);
 
         if (maxYear) YEAR_FILTER.value = maxYear;
 
@@ -765,12 +768,70 @@
         renderTable();
         setupEventListeners();
 
+        // Mostrar u ocultar el filtro municipal según la configuración
+        const MUNI_FILTER_GROUP = document.getElementById("municipal-filter-group");
+        if (typeof filtroMuni !== 'undefined' && filtroMuni === true) {
+          MUNI_FILTER_GROUP.style.display = "flex";
+        }
+
         LOADING_EL.style.display = "none";
         TABLE_EL.style.display = "table";
       } catch (err) {
         console.error(err);
         LOADING_EL.innerHTML = `<p style="color:var(--danger-text)">Error: ${err.message}</p>`;
       }
+    }
+
+    function updateFilterOptions(isInitial = false) {
+      const currentYear = YEAR_FILTER.value;
+      const currentPadre = PADRE_FILTER.value;
+      const search = SEARCH_INPUT.value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+      // 1. Población de PERIODOS (basado en Padre y Búsqueda)
+      const availableYears = new Set();
+      data.forEach(r => {
+        const name = r.organismo_nombre.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        const p = organismoPadres[r.organismo_nombre] || "";
+        if (name.includes(search) && (currentPadre === "" || p === currentPadre)) {
+          allMonths.forEach(m => {
+            if (r[m] > 0) availableYears.add(m.split('_')[1]);
+          });
+        }
+      });
+
+      const sortedYears = Array.from(availableYears).sort((a, b) => b - a);
+      const prevYear = YEAR_FILTER.value;
+      YEAR_FILTER.innerHTML = '<option value="">Todos los años</option>';
+      sortedYears.forEach(y => {
+        const opt = document.createElement("option");
+        opt.value = y; opt.textContent = y;
+        YEAR_FILTER.appendChild(opt);
+      });
+      if (prevYear && availableYears.has(prevYear)) YEAR_FILTER.value = prevYear;
+      else if (isInitial && maxYear) YEAR_FILTER.value = maxYear;
+
+      // 2. Población de PADRES (basado en Año y Búsqueda)
+      const availablePadres = new Set();
+      const activeMonths = YEAR_FILTER.value ? allMonths.filter(m => m.endsWith('_' + YEAR_FILTER.value)) : allMonths;
+
+      data.forEach(r => {
+        const name = r.organismo_nombre.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        const hasData = activeMonths.some(m => r[m] > 0);
+        if (name.includes(search) && hasData) {
+          const p = organismoPadres[r.organismo_nombre];
+          if (p) availablePadres.add(p);
+        }
+      });
+
+      const sortedPadres = Array.from(availablePadres).sort();
+      const prevPadre = PADRE_FILTER.value;
+      PADRE_FILTER.innerHTML = '<option value="">Todos los organismos padre</option>';
+      sortedPadres.forEach(p => {
+        const opt = document.createElement("option");
+        opt.value = p; opt.textContent = p;
+        PADRE_FILTER.appendChild(opt);
+      });
+      if (prevPadre && availablePadres.has(prevPadre)) PADRE_FILTER.value = prevPadre;
     }
 
     function filterMonthsByYear(year) {
@@ -907,19 +968,18 @@
         const search = SEARCH_INPUT.value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
         const padre = PADRE_FILTER.value;
         const year = YEAR_FILTER.value;
-        const tipo = TIPO_FILTER.value;
+        const tipo = document.getElementById("tipo-filter").value;
+
+        updateFilterOptions();
 
         filterMonthsByYear(year);
         filteredData = data.filter(r => {
           const name = r.organismo_nombre.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
           const p = organismoPadres[r.organismo_nombre] || "";
 
-          // Filtro Municipal/Central
-          if (tipo !== "") {
-            const tipoVal = organismoMunicipal[r.organismo_nombre];
-            if (tipoVal === undefined) return false;
-            if (String(tipoVal) !== tipo) return false;
-          }
+          // Filtro Tipo Organismo
+          const isMuni = organismoMunicipal[r.organismo_nombre] === 1 ? "1" : "0";
+          if (tipo !== "" && isMuni !== tipo) return false;
 
           return name.includes(search) && (padre === "" || p === padre);
         });
@@ -930,7 +990,8 @@
 
       SEARCH_INPUT.addEventListener("input", applyFilters);
       PADRE_FILTER.addEventListener("change", applyFilters);
-      TIPO_FILTER.addEventListener("change", applyFilters);
+      document.getElementById("tipo-filter").addEventListener("change", applyFilters);
+
       YEAR_FILTER.addEventListener("change", applyFilters);
       document.getElementById("clear-filters").addEventListener("click", () => {
         const url = new URL(window.location.href);

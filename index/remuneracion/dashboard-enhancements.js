@@ -4,27 +4,27 @@
  * Excluye: Dark Mode (#14)
  */
 (function () {
-    'use strict';
+  'use strict';
 
-    // ─── Utilidades ────────────────────────────────────────────
-    function injectCSS(css) {
-        const style = document.createElement('style');
-        style.textContent = css;
-        document.head.appendChild(style);
-    }
+  // ─── Utilidades ────────────────────────────────────────────
+  function injectCSS(css) {
+    const style = document.createElement('style');
+    style.textContent = css;
+    document.head.appendChild(style);
+  }
 
-    // ─── #1 Cursor pointer en celdas clickeables ──────────────
-    // ─── #2 Indicador "clic para ver detalle" ─────────────────
-    // ─── #3 Toast en exportaciones ────────────────────────────
-    // ─── #5 Cerrar modal con Escape ───────────────────────────
-    // ─── #8 Highlight columna al hover ────────────────────────
-    // ─── #9 Skeleton loading ──────────────────────────────────
-    // ─── #12 Sombra sticky column ─────────────────────────────
-    // ─── #13 Animación metric cards ───────────────────────────
-    // ─── #15 Scroll-to-top al cambiar filtros ─────────────────
-    // ─── Aviso sin datos ──────────────────────────────────────
+  // ─── #1 Cursor pointer en celdas clickeables ──────────────
+  // ─── #2 Indicador "clic para ver detalle" ─────────────────
+  // ─── #3 Toast en exportaciones ────────────────────────────
+  // ─── #5 Cerrar modal con Escape ───────────────────────────
+  // ─── #8 Highlight columna al hover ────────────────────────
+  // ─── #9 Skeleton loading ──────────────────────────────────
+  // ─── #12 Sombra sticky column ─────────────────────────────
+  // ─── #13 Animación metric cards ───────────────────────────
+  // ─── #15 Scroll-to-top al cambiar filtros ─────────────────
+  // ─── Aviso sin datos ──────────────────────────────────────
 
-    const enhancementCSS = `
+  const enhancementCSS = `
     /* #1 — Cursor pointer en celdas de datos */
     tbody td:not(:first-child) {
       cursor: pointer;
@@ -286,38 +286,38 @@
     }
   `;
 
-    injectCSS(enhancementCSS);
+  injectCSS(enhancementCSS);
 
-    // ─── DOM Ready ─────────────────────────────────────────────
-    document.addEventListener('DOMContentLoaded', () => {
-        initBreadcrumb();
-        initSkeletonLoading();
-        initEscapeClose();
-        initColumnHighlight();
-        patchExportWithToast();
-        injectTableHint();
-        injectActiveFiltersBar();
-        patchRenderForEnhancements();
-        patchModalResultsCount();
-    });
+  // ─── DOM Ready ─────────────────────────────────────────────
+  document.addEventListener('DOMContentLoaded', () => {
+    initBreadcrumb();
+    initSkeletonLoading();
+    initEscapeClose();
+    initColumnHighlight();
+    patchExportWithToast();
+    injectTableHint();
+    injectActiveFiltersBar();
+    patchRenderForEnhancements();
+    patchModalResultsCount();
+  });
 
-    // ─── #10 Breadcrumb ────────────────────────────────────────
-    function initBreadcrumb() {
-        const pageTitle = document.title || '';
-        let breadcrumbLabel = 'Registros';
+  // ─── #10 Breadcrumb ────────────────────────────────────────
+  function initBreadcrumb() {
+    const pageTitle = document.title || '';
+    let breadcrumbLabel = 'Registros';
 
-        if (pageTitle.includes('Edad')) breadcrumbLabel = 'Por Edad';
-        else if (pageTitle.includes('Sexo') || pageTitle.includes('sexo')) breadcrumbLabel = 'Por Sexo';
-        else if (pageTitle.includes('Homologado') || pageTitle.includes('Profesion') || pageTitle.includes('profesion')) breadcrumbLabel = 'Por Homologado';
-        else if (pageTitle.includes('Base')) breadcrumbLabel = 'Por Base';
+    if (pageTitle.includes('Edad')) breadcrumbLabel = 'Por Edad';
+    else if (pageTitle.includes('Sexo') || pageTitle.includes('sexo')) breadcrumbLabel = 'Por Sexo';
+    else if (pageTitle.includes('Homologado') || pageTitle.includes('Profesion') || pageTitle.includes('profesion')) breadcrumbLabel = 'Por Homologado';
+    else if (pageTitle.includes('Base')) breadcrumbLabel = 'Por Base';
 
-        // Obtener nombre del organismo del título dinámico
-        const tituloEl = document.getElementById('titulo_principal');
-        const orgName = tituloEl ? tituloEl.textContent.replace(/.*por\s*/i, '').split(' y ')[0].trim() : '';
+    // Obtener nombre del organismo del título dinámico
+    const tituloEl = document.getElementById('titulo_principal');
+    const orgName = tituloEl ? tituloEl.textContent.replace(/.*por\s*/i, '').split(' y ')[0].trim() : '';
 
-        const breadcrumb = document.createElement('nav');
-        breadcrumb.className = 'breadcrumb-nav';
-        breadcrumb.innerHTML = `
+    const breadcrumb = document.createElement('nav');
+    breadcrumb.className = 'breadcrumb-nav';
+    breadcrumb.innerHTML = `
       <a href="../landing_transparencia.html">Inicio</a>
       <span class="breadcrumb-sep">›</span>
       <a href="../landing_transparencia.html">Registros</a>
@@ -326,367 +326,383 @@
       <span class="breadcrumb-current">${breadcrumbLabel}</span>
     `;
 
-        // Insertarlo después del header/nav
-        const mainEl = document.querySelector('main.container') || document.querySelector('.main-content') || document.querySelector('.stats-bar');
-        if (mainEl) {
-            mainEl.parentNode.insertBefore(breadcrumb, mainEl);
-        }
+    // Insertarlo después del header/nav
+    const mainEl = document.querySelector('main.container') || document.querySelector('.main-content') || document.querySelector('.stats-bar');
+    if (mainEl) {
+      mainEl.parentNode.insertBefore(breadcrumb, mainEl);
     }
+  }
 
-    // ─── #9 Skeleton Loading ───────────────────────────────────
-    function initSkeletonLoading() {
-        const loadingEl = document.getElementById('loading');
-        if (!loadingEl) return;
+  // ─── #9 Skeleton Loading ───────────────────────────────────
+  function initSkeletonLoading() {
+    const loadingEl = document.getElementById('loading');
+    if (!loadingEl) return;
 
-        const cols = 6;
-        const rows = 5;
-        let skeletonHTML = '<div class="skeleton-container">';
-        skeletonHTML += '<div class="skeleton-row skeleton-header">';
-        for (let c = 0; c < cols; c++) skeletonHTML += '<div class="skeleton-cell"></div>';
-        skeletonHTML += '</div>';
-        for (let r = 0; r < rows; r++) {
-            skeletonHTML += `<div class="skeleton-row" style="animation-delay:${r * 0.1}s">`;
-            for (let c = 0; c < cols; c++) skeletonHTML += '<div class="skeleton-cell"></div>';
-            skeletonHTML += '</div>';
-        }
-        skeletonHTML += '</div>';
-
-        loadingEl.innerHTML = skeletonHTML;
+    const cols = 6;
+    const rows = 5;
+    let skeletonHTML = '<div class="skeleton-container">';
+    skeletonHTML += '<div class="skeleton-row skeleton-header">';
+    for (let c = 0; c < cols; c++) skeletonHTML += '<div class="skeleton-cell"></div>';
+    skeletonHTML += '</div>';
+    for (let r = 0; r < rows; r++) {
+      skeletonHTML += `<div class="skeleton-row" style="animation-delay:${r * 0.1}s">`;
+      for (let c = 0; c < cols; c++) skeletonHTML += '<div class="skeleton-cell"></div>';
+      skeletonHTML += '</div>';
     }
+    skeletonHTML += '</div>';
 
-    // ─── #5 Cerrar modal con Escape ────────────────────────────
-    function initEscapeClose() {
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                const modal = document.getElementById('detailsModal');
-                if (modal && modal.style.display === 'block') {
-                    modal.style.display = 'none';
-                }
-            }
-        });
-    }
+    loadingEl.innerHTML = skeletonHTML;
+  }
 
-    // ─── #3 Toast de exportación ───────────────────────────────
-    let toastEl = null;
-    function showToast(message, isError = false) {
-        if (!toastEl) {
-            toastEl = document.createElement('div');
-            toastEl.className = 'toast-notification';
-            document.body.appendChild(toastEl);
-        }
-        toastEl.className = 'toast-notification' + (isError ? ' error' : '');
-        toastEl.innerHTML = `${isError ? '⚠️' : '✓'} ${message}`;
-
-        requestAnimationFrame(() => {
-            toastEl.classList.add('show');
-        });
-
-        setTimeout(() => {
-            toastEl.classList.remove('show');
-        }, 3000);
-    }
-
-    function patchExportWithToast() {
-        const exportFns = { 'export-csv': 'CSV', 'export-excel': 'Excel', 'export-pdf': 'PDF' };
-
-        Object.entries(exportFns).forEach(([id, label]) => {
-            const btn = document.getElementById(id);
-            if (btn) {
-                // Agregar listener adicional que muestra toast
-                btn.addEventListener('click', () => {
-                    setTimeout(() => showToast(`Archivo ${label} exportado exitosamente`), 300);
-                });
-            }
-        });
-    }
-
-    // ─── #2 Hint de interactividad ─────────────────────────────
-    function injectTableHint() {
-        // Solo inyectar si hay modal (registro1, sexo1)
+  // ─── #5 Cerrar modal con Escape ────────────────────────────
+  function initEscapeClose() {
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
         const modal = document.getElementById('detailsModal');
-
-        const tableSection = document.querySelector('.table-section') || document.querySelector('.table-card');
-        if (!tableSection) return;
-
-        const hint = document.createElement('div');
-        hint.className = 'table-hint';
-
-        if (modal) {
-            hint.innerHTML = '<i class="fas fa-info-circle"></i> Haga clic en cualquier celda para ver el detalle de registros';
-        } else {
-            hint.innerHTML = '<i class="fas fa-info-circle"></i> Pase el cursor sobre las celdas para ver el detalle estadístico';
+        if (modal && modal.style.display === 'block') {
+          modal.style.display = 'none';
         }
+      }
+    });
+  }
 
-        tableSection.appendChild(hint);
+  // ─── #3 Toast de exportación ───────────────────────────────
+  let toastEl = null;
+  function showToast(message, isError = false) {
+    if (!toastEl) {
+      toastEl = document.createElement('div');
+      toastEl.className = 'toast-notification';
+      document.body.appendChild(toastEl);
+    }
+    toastEl.className = 'toast-notification' + (isError ? ' error' : '');
+    toastEl.innerHTML = `${isError ? '⚠️' : '✓'} ${message}`;
+
+    requestAnimationFrame(() => {
+      toastEl.classList.add('show');
+    });
+
+    setTimeout(() => {
+      toastEl.classList.remove('show');
+    }, 3000);
+  }
+
+  function patchExportWithToast() {
+    const exportFns = { 'export-csv': 'CSV', 'export-excel': 'Excel', 'export-pdf': 'PDF' };
+
+    Object.entries(exportFns).forEach(([id, label]) => {
+      const btn = document.getElementById(id);
+      if (btn) {
+        // Agregar listener adicional que muestra toast
+        btn.addEventListener('click', () => {
+          setTimeout(() => showToast(`Archivo ${label} exportado exitosamente`), 300);
+        });
+      }
+    });
+  }
+
+  // ─── #2 Hint de interactividad ─────────────────────────────
+  function injectTableHint() {
+    // Solo inyectar si hay modal (registro1, sexo1)
+    const modal = document.getElementById('detailsModal');
+
+    const tableSection = document.querySelector('.table-section') || document.querySelector('.table-card');
+    if (!tableSection) return;
+
+    const hint = document.createElement('div');
+    hint.className = 'table-hint';
+
+    if (modal) {
+      hint.innerHTML = '<i class="fas fa-info-circle"></i> Haga clic en cualquier celda para ver el detalle de registros';
+    } else {
+      hint.innerHTML = '<i class="fas fa-info-circle"></i> Pase el cursor sobre las celdas para ver el detalle estadístico';
     }
 
-    // ─── #6 Filtros activos (chips) ────────────────────────────
-    function injectActiveFiltersBar() {
-        const filtersContainer = document.querySelector('.filter-bar') || document.querySelector('.filters');
-        if (!filtersContainer) return;
+    tableSection.appendChild(hint);
+  }
 
-        const chipsBar = document.createElement('div');
-        chipsBar.className = 'active-filters-bar';
-        chipsBar.id = 'active-filters-chips';
+  // ─── #6 Filtros activos (chips) ────────────────────────────
+  function injectActiveFiltersBar() {
+    const filtersContainer = document.querySelector('.filter-bar') || document.querySelector('.filters');
+    if (!filtersContainer) return;
 
-        // Insertar después de la barra de filtros
-        filtersContainer.parentNode.insertBefore(chipsBar, filtersContainer.nextSibling);
+    const chipsBar = document.createElement('div');
+    chipsBar.className = 'active-filters-bar';
+    chipsBar.id = 'active-filters-chips';
 
-        // Observar cambios en los selects
-        const selects = filtersContainer.querySelectorAll('select');
-        selects.forEach(select => {
-            select.addEventListener('change', () => updateActiveFiltersChips());
-        });
+    // Insertar después de la barra de filtros
+    filtersContainer.parentNode.insertBefore(chipsBar, filtersContainer.nextSibling);
 
-        // Observar mutaciones para detectar cambios programáticos
-        const observer = new MutationObserver(() => updateActiveFiltersChips());
-        selects.forEach(select => {
-            observer.observe(select, { attributes: true, attributeFilter: ['value'] });
-        });
-    }
+    // Observar cambios en los selects
+    const selects = filtersContainer.querySelectorAll('select');
+    selects.forEach(select => {
+      select.addEventListener('change', () => updateActiveFiltersChips());
+    });
 
-    function updateActiveFiltersChips() {
-        const chipsBar = document.getElementById('active-filters-chips');
-        if (!chipsBar) return;
+    // Observar mutaciones para detectar cambios programáticos
+    const observer = new MutationObserver(() => updateActiveFiltersChips());
+    selects.forEach(select => {
+      observer.observe(select, { attributes: true, attributeFilter: ['value'] });
+    });
+  }
 
-        chipsBar.innerHTML = '';
+  function updateActiveFiltersChips() {
+    const chipsBar = document.getElementById('active-filters-chips');
+    if (!chipsBar) return;
 
-        const filterMap = {
-            'sexo-filter': { label: 'Sexo', icon: '♀♂' },
-            'homologado-filter': { label: 'Homologado', icon: '🎓' },
-            'edad-filter': { label: 'Edad', icon: '👤' },
-            'base-filter': { label: 'Base', icon: '📋' },
-            'year-filter': { label: 'Año', icon: '📅' }
-        };
+    chipsBar.innerHTML = '';
 
-        Object.entries(filterMap).forEach(([id, meta]) => {
-            const select = document.getElementById(id);
-            if (!select || !select.value) return;
+    const filterMap = {
+      'sexo-filter': { label: 'Sexo', icon: '♀♂' },
+      'homologado-filter': { label: 'Homologado', icon: '🎓' },
+      'edad-filter': { label: 'Edad', icon: '👤' },
+      'base-filter': { label: 'Base', icon: '📋' },
+      'year-filter': { label: 'Año', icon: '📅' }
+    };
 
-            // Skip year filter si es el valor por defecto (maxYear)
-            if (id === 'year-filter' && typeof maxYear !== 'undefined' && select.value == maxYear) return;
+    Object.entries(filterMap).forEach(([id, meta]) => {
+      const select = document.getElementById(id);
+      if (!select || !select.value) return;
 
-            const chip = document.createElement('span');
-            chip.className = 'active-filter-chip';
-            chip.innerHTML = `${meta.icon} ${meta.label}: ${select.selectedOptions[0]?.textContent || select.value} <span class="chip-remove">✕</span>`;
-            chip.addEventListener('click', () => {
-                if (id === 'year-filter' && typeof maxYear !== 'undefined') {
-                    select.value = maxYear;
-                } else {
-                    select.value = '';
-                }
-                select.dispatchEvent(new Event('change'));
-                updateActiveFiltersChips();
-            });
-            chipsBar.appendChild(chip);
-        });
-    }
+      // Skip year filter si es el valor por defecto (maxYear)
+      if (id === 'year-filter' && typeof maxYear !== 'undefined' && select.value == maxYear) return;
 
-    // ─── #8 Column highlight ───────────────────────────────────
-    function initColumnHighlight() {
-        document.addEventListener('mouseover', (e) => {
-            const th = e.target.closest('thead th');
-            if (!th) return;
+      const chip = document.createElement('span');
+      chip.className = 'active-filter-chip';
+      chip.innerHTML = `${meta.icon} ${meta.label}: ${select.selectedOptions[0]?.textContent || select.value} <span class="chip-remove">✕</span>`;
+      chip.addEventListener('click', () => {
+        if (id === 'year-filter' && typeof maxYear !== 'undefined') {
+          select.value = maxYear;
+        } else {
+          select.value = '';
+        }
+        select.dispatchEvent(new Event('change'));
+        updateActiveFiltersChips();
+      });
+      chipsBar.appendChild(chip);
+    });
+  }
 
-            const table = th.closest('table');
-            if (!table || table.classList.contains('modal-table')) return;
+  // ─── #8 Column highlight ───────────────────────────────────
+  function initColumnHighlight() {
+    document.addEventListener('mouseover', (e) => {
+      const th = e.target.closest('thead th');
+      if (!th) return;
 
-            const colIndex = Array.from(th.parentNode.children).indexOf(th);
-            if (colIndex <= 0) return; // No highlight en primera columna
+      const table = th.closest('table');
+      if (!table || table.classList.contains('modal-table')) return;
 
-            clearColumnHighlight(table);
+      const colIndex = Array.from(th.parentNode.children).indexOf(th);
+      if (colIndex <= 0) return; // No highlight en primera columna
 
-            table.querySelectorAll(`tbody tr`).forEach(row => {
-                const cell = row.children[colIndex];
-                if (cell) cell.classList.add('col-highlight');
-            });
-            table.querySelectorAll(`tfoot tr`).forEach(row => {
-                const cell = row.children[colIndex];
-                if (cell) cell.classList.add('col-highlight');
-            });
-        });
+      clearColumnHighlight(table);
 
-        document.addEventListener('mouseout', (e) => {
-            const th = e.target.closest('thead th');
-            if (!th) return;
-            const table = th.closest('table');
-            if (table) clearColumnHighlight(table);
-        });
-    }
+      table.querySelectorAll(`tbody tr`).forEach(row => {
+        const cell = row.children[colIndex];
+        if (cell) cell.classList.add('col-highlight');
+      });
+      table.querySelectorAll(`tfoot tr`).forEach(row => {
+        const cell = row.children[colIndex];
+        if (cell) cell.classList.add('col-highlight');
+      });
+    });
 
-    function clearColumnHighlight(table) {
-        table.querySelectorAll('.col-highlight').forEach(el => el.classList.remove('col-highlight'));
-    }
+    document.addEventListener('mouseout', (e) => {
+      const th = e.target.closest('thead th');
+      if (!th) return;
+      const table = th.closest('table');
+      if (table) clearColumnHighlight(table);
+    });
+  }
 
-    // ─── #7 Fila totales + #11 Formateo + #15 Scroll + Sin datos ──
-    function patchRenderForEnhancements() {
-        const originalRenderTable = window.renderTable;
-        if (!originalRenderTable) return;
+  function clearColumnHighlight(table) {
+    table.querySelectorAll('.col-highlight').forEach(el => el.classList.remove('col-highlight'));
+  }
 
-        window.renderTable = function () {
-            originalRenderTable.call(this);
+  // ─── #7 Fila totales + #11 Formateo + #15 Scroll + Sin datos ──
+  function patchRenderForEnhancements() {
+    const originalRenderTable = window.renderTable;
+    if (!originalRenderTable) return;
 
-            const table = document.getElementById('data-table');
-            if (!table) return;
+    window.renderTable = function () {
+      originalRenderTable.call(this);
 
-            // Verificar si hay datos — Aviso sin datos
-            if (typeof filteredData !== 'undefined' && filteredData.length === 0) {
-                table.style.display = 'none';
-                let emptyState = document.getElementById('empty-state-msg');
-                if (!emptyState) {
-                    emptyState = document.createElement('div');
-                    emptyState.id = 'empty-state-msg';
-                    emptyState.className = 'empty-state';
-                    emptyState.innerHTML = `
+      const table = document.getElementById('data-table');
+      if (!table) return;
+
+      // Verificar si hay datos — Aviso sin datos
+      if (typeof filteredData !== 'undefined' && filteredData.length === 0) {
+        table.style.display = 'none';
+        let emptyState = document.getElementById('empty-state-msg');
+        if (!emptyState) {
+          emptyState = document.createElement('div');
+          emptyState.id = 'empty-state-msg';
+          emptyState.className = 'empty-state';
+          emptyState.innerHTML = `
             <div class="empty-state-icon">📊</div>
             <div class="empty-state-title">Sin datos disponibles</div>
             <div class="empty-state-desc">No se encontraron registros con los filtros seleccionados. Intente modificar los criterios de búsqueda.</div>
           `;
-                    table.parentNode.appendChild(emptyState);
-                }
-                emptyState.style.display = 'flex';
-
-                // Ocultar hint si existe
-                const hint = document.querySelector('.table-hint');
-                if (hint) hint.style.display = 'none';
-                return;
-            } else {
-                const emptyState = document.getElementById('empty-state-msg');
-                if (emptyState) emptyState.style.display = 'none';
-                table.style.display = 'table';
-
-                const hint = document.querySelector('.table-hint');
-                if (hint) hint.style.display = 'flex';
-            }
-
-            // #11 — Formateo consistente con Intl
-            if (typeof formatter !== 'undefined' && typeof isPercentageMode !== 'undefined' && !isPercentageMode) {
-                const tbody = table.querySelector('tbody');
-                if (tbody) {
-                    tbody.querySelectorAll('tr').forEach(tr => {
-                        const cells = tr.children;
-                        // Saltar primera y segunda columna (nombre + grupo), última (promedio)
-                        for (let i = 2; i < cells.length - 1; i++) {
-                            const td = cells[i];
-                            const text = td.childNodes[0];
-                            if (text && text.nodeType === Node.TEXT_NODE) {
-                                const raw = text.textContent.trim().replace(/\./g, '').replace(/,/g, '');
-                                const num = parseInt(raw, 10);
-                                if (!isNaN(num) && num > 0) {
-                                    text.textContent = formatter.format(num);
-                                }
-                            }
-                        }
-                    });
-                }
-            }
-
-            // #7 — Agregar fila de totales
-            addTotalsRow(table);
-
-            // #15 — Scroll-to-top
-            const tableSection = document.querySelector('.table-section') || document.querySelector('.table-card');
-            if (tableSection) {
-                tableSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }
-
-            // Actualizar chips
-            updateActiveFiltersChips();
-        };
-    }
-
-    // ─── #7 Totales por columna ────────────────────────────────
-    function addTotalsRow(table) {
-        // Eliminar tfoot previo si existe
-        const existingTfoot = table.querySelector('tfoot');
-        if (existingTfoot) existingTfoot.remove();
-
-        if (typeof filteredData === 'undefined' || typeof filteredMonths === 'undefined') return;
-        if (typeof isPercentageMode !== 'undefined' && isPercentageMode) return; // No totales en modo %
-
-        const tfoot = document.createElement('tfoot');
-        const tr = document.createElement('tr');
-
-        // Primera celda: "TOTAL"
-        const tdLabel = document.createElement('td');
-        tdLabel.textContent = '∑ TOTAL';
-        tdLabel.style.fontWeight = '800';
-        tr.appendChild(tdLabel);
-
-        // Segunda celda (grupo/base/sexo/edad): vacía
-        const tdGroup = document.createElement('td');
-        tdGroup.textContent = '';
-        tr.appendChild(tdGroup);
-
-        // Calcular totales por mes
-        let grandTotal = 0;
-        let monthCount = 0;
-
-        filteredMonths.forEach(month => {
-            const td = document.createElement('td');
-            let total = 0;
-            filteredData.forEach(row => {
-                const val = row[month];
-                if (val && val > 0) total += val;
-            });
-
-            if (typeof formatter !== 'undefined') {
-                td.textContent = total > 0 ? formatter.format(total) : '-';
-            } else {
-                td.textContent = total > 0 ? total.toLocaleString() : '-';
-            }
-
-            grandTotal += total;
-            if (total > 0) monthCount++;
-            tr.appendChild(td);
-        });
-
-        // Celda promedio de totales
-        const tdAvg = document.createElement('td');
-        const avgTotal = monthCount > 0 ? Math.round(grandTotal / monthCount) : 0;
-        if (typeof formatter !== 'undefined') {
-            tdAvg.textContent = avgTotal > 0 ? formatter.format(avgTotal) : '-';
-        } else {
-            tdAvg.textContent = avgTotal > 0 ? avgTotal.toLocaleString() : '-';
+          table.parentNode.appendChild(emptyState);
         }
-        tdAvg.style.fontWeight = '800';
-        tr.appendChild(tdAvg);
+        emptyState.style.display = 'flex';
 
-        tfoot.appendChild(tr);
-        table.appendChild(tfoot);
-    }
+        // Ocultar hint si existe
+        const hint = document.querySelector('.table-hint');
+        if (hint) hint.style.display = 'none';
+        return;
+      } else {
+        const emptyState = document.getElementById('empty-state-msg');
+        if (emptyState) emptyState.style.display = 'none';
+        table.style.display = 'table';
 
-    // ─── #4 Conteo de resultados en modal ──────────────────────
-    function patchModalResultsCount() {
-        const originalDisplay = window.displayDetailedData;
-        if (!originalDisplay) return;
+        const hint = document.querySelector('.table-hint');
+        if (hint) hint.style.display = 'flex';
+      }
 
-        window.displayDetailedData = function (data) {
-            originalDisplay.call(this, data);
-
-            // Agregar conteo de resultados
-            const paginationEl = document.getElementById('table-pagination');
-            if (!paginationEl) return;
-
-            let countEl = document.getElementById('results-count');
-            if (!countEl) {
-                countEl = document.createElement('div');
-                countEl.id = 'results-count';
-                countEl.className = 'results-count';
-                paginationEl.parentNode.insertBefore(countEl, paginationEl);
+      // #11 — Formateo consistente con Intl
+      if (typeof formatter !== 'undefined' && typeof isPercentageMode !== 'undefined' && !isPercentageMode) {
+        const tbody = table.querySelector('tbody');
+        if (tbody) {
+          tbody.querySelectorAll('tr').forEach(tr => {
+            const cells = tr.children;
+            // Saltar primera y segunda columna (nombre + grupo), última (promedio)
+            for (let i = 2; i < cells.length - 1; i++) {
+              const td = cells[i];
+              const text = td.childNodes[0];
+              if (text && text.nodeType === Node.TEXT_NODE) {
+                const raw = text.textContent.trim().replace(/\./g, '').replace(/,/g, '.');
+                const num = parseFloat(raw);
+                if (!isNaN(num) && num > 0) {
+                  text.textContent = formatter.format(Math.round(num));
+                }
+              }
             }
+          });
+        }
+      }
 
-            const total = (typeof filteredTableData !== 'undefined') ? filteredTableData.length : (data ? data.length : 0);
-            const rowsPerPageVal = (typeof rowsPerPage !== 'undefined') ? rowsPerPage : 10;
-            const currentPageVal = (typeof currentPage !== 'undefined') ? currentPage : 1;
-            const start = Math.min((currentPageVal - 1) * rowsPerPageVal + 1, total);
-            const end = Math.min(currentPageVal * rowsPerPageVal, total);
+      // #7 — Agregar fila de totales
+      addTotalsRow(table);
 
-            countEl.innerHTML = `Mostrando <strong>${start}-${end}</strong> de <strong>${total}</strong> registros`;
-        };
+      // #15 — Scroll-to-top
+      const tableSection = document.querySelector('.table-section') || document.querySelector('.table-card');
+      if (tableSection) {
+        tableSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      // Actualizar chips
+      updateActiveFiltersChips();
+    };
+  }
+
+  // ─── #7 Totales por columna ────────────────────────────────
+  function addTotalsRow(table) {
+    // Eliminar tfoot previo si existe
+    const existingTfoot = table.querySelector('tfoot');
+    if (existingTfoot) existingTfoot.remove();
+
+    if (typeof filteredData === 'undefined' || typeof filteredMonths === 'undefined') return;
+    if (typeof isPercentageMode !== 'undefined' && isPercentageMode) return; // No totales en modo %
+
+    const tfoot = document.createElement('tfoot');
+    const tr = document.createElement('tr');
+
+    // Primera celda: "TOTAL"
+    const tdLabel = document.createElement('td');
+    tdLabel.textContent = '∑ TOTAL';
+    tdLabel.style.fontWeight = '800';
+    tr.appendChild(tdLabel);
+
+    // Segunda celda (grupo/base/sexo/edad): vacía
+    const tdGroup = document.createElement('td');
+    tdGroup.textContent = '';
+    tr.appendChild(tdGroup);
+
+    // Calcular totales por mes
+    let grandTotal = 0;
+    let monthCount = 0;
+
+    filteredMonths.forEach(month => {
+      const td = document.createElement('td');
+      let total = 0;
+      let count = 0;
+      const isRemuneration = window.location.pathname.includes('remuneracion');
+
+      filteredData.forEach(row => {
+        const val = row[month];
+        // Si hay metadatos de conteo real (desde el archivo de registro), los usamos para promediar correctamente
+        const peopleCount = (row._monthCounts && row._monthCounts[month]) ? row._monthCounts[month] : 1;
+
+        if (val && val > 0) {
+          if (isRemuneration) {
+            total += (val * peopleCount);
+            count += peopleCount;
+          } else {
+            total += val;
+            count++;
+          }
+        }
+      });
+
+      const resultValue = (isRemuneration && count > 0) ? total / count : total;
+
+      if (typeof formatter !== 'undefined') {
+        td.textContent = resultValue > 0 ? formatter.format(Math.round(resultValue)) : '-';
+      } else {
+        td.textContent = resultValue > 0 ? Math.round(resultValue).toLocaleString() : '-';
+      }
+
+      grandTotal += resultValue;
+      if (resultValue > 0) monthCount++;
+      tr.appendChild(td);
+    });
+
+    // Celda promedio de totales
+    const tdAvg = document.createElement('td');
+    const avgTotal = monthCount > 0 ? Math.round(grandTotal / monthCount) : 0;
+    if (typeof formatter !== 'undefined') {
+      tdAvg.textContent = avgTotal > 0 ? formatter.format(avgTotal) : '-';
+    } else {
+      tdAvg.textContent = avgTotal > 0 ? avgTotal.toLocaleString() : '-';
     }
+    tdAvg.style.fontWeight = '800';
+    tr.appendChild(tdAvg);
 
-    // Exponer showToast para uso externo
-    window.showToast = showToast;
+    tfoot.appendChild(tr);
+    table.appendChild(tfoot);
+  }
+
+  // ─── #4 Conteo de resultados en modal ──────────────────────
+  function patchModalResultsCount() {
+    const originalDisplay = window.displayDetailedData;
+    if (!originalDisplay) return;
+
+    window.displayDetailedData = function (data) {
+      originalDisplay.call(this, data);
+
+      // Agregar conteo de resultados
+      const paginationEl = document.getElementById('table-pagination');
+      if (!paginationEl) return;
+
+      let countEl = document.getElementById('results-count');
+      if (!countEl) {
+        countEl = document.createElement('div');
+        countEl.id = 'results-count';
+        countEl.className = 'results-count';
+        paginationEl.parentNode.insertBefore(countEl, paginationEl);
+      }
+
+      const total = (typeof filteredTableData !== 'undefined') ? filteredTableData.length : (data ? data.length : 0);
+      const rowsPerPageVal = (typeof rowsPerPage !== 'undefined') ? rowsPerPage : 10;
+      const currentPageVal = (typeof currentPage !== 'undefined') ? currentPage : 1;
+      const start = Math.min((currentPageVal - 1) * rowsPerPageVal + 1, total);
+      const end = Math.min(currentPageVal * rowsPerPageVal, total);
+
+      countEl.innerHTML = `Mostrando <strong>${start}-${end}</strong> de <strong>${total}</strong> registros`;
+    };
+  }
+
+  // Exponer showToast para uso externo
+  window.showToast = showToast;
 
 })();

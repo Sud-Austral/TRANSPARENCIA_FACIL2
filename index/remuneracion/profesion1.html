@@ -1055,13 +1055,27 @@
 
     async function initializeApp() {
       const loadingEl = document.getElementById("loading"), tableEl = document.getElementById("data-table");
+      const COUNTS_URL = `../../personas_organismo2_all/${organismoParam}.json`;
       try {
-        const response = await fetch(DATA_URL);
-        if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
-        rawData = await response.json(); cargarTitulosBoton(rawData); data = rawData;
+        const [remResp, regResp] = await Promise.all([
+          fetch(DATA_URL),
+          fetch(COUNTS_URL)
+        ]);
+
+        if (!remResp.ok) throw new Error(`Remuneraciones error: ${remResp.status}`);
+        if (!regResp.ok) throw new Error(`Registro error: ${regResp.status}`);
+
+        const remData = await remResp.json();
+        const regData = await regResp.json();
+
+        data = remData.map((row, i) => {
+          return { ...row, _counts: regData[i] || {} };
+        });
+
+        cargarTitulosBoton(data);
 
         const allKeys = new Set();
-        data.forEach(row => { Object.keys(row).forEach(key => { if (!["organismo_nombre", "base", "sexo", "homologado", "age_label"].includes(key)) allKeys.add(key); }); });
+        data.forEach(row => { Object.keys(row).forEach(key => { if (!["organismo_nombre", "base", "sexo", "homologado", "age_label", "_counts"].includes(key)) allKeys.add(key); }); });
         allMonths = Array.from(allKeys);
         allMonths.sort((a, b) => { const [mA, yA] = a.split('_'), [mB, yB] = b.split('_'); if (parseInt(yA) !== parseInt(yB)) return parseInt(yB) - parseInt(yA); return (monthOrder[mA.toUpperCase()] || 0) - (monthOrder[mB.toUpperCase()] || 0); });
         filteredMonths = [...allMonths];
@@ -1097,26 +1111,64 @@
       filteredMonths = allMonths.filter(m => { const p = m.split('_'); return p.length > 1 && parseInt(p[p.length - 1]) === year; });
     }
 
-    function groupAndSumData(d) {
+    function groupAndAverageData(d) {
       const g = new Map();
       d.forEach(row => {
         const key = `${row.organismo_nombre}_${row.homologado}`;
-        if (!g.has(key)) g.set(key, { organismo_nombre: row.organismo_nombre, homologado: row.homologado });
+        if (!g.has(key)) {
+          const initial = {
+            organismo_nombre: row.organismo_nombre,
+            homologado: row.homologado,
+            _totalRem: {},
+            _totalCount: {}
+          };
+          allMonths.forEach(m => { initial._totalRem[m] = 0; initial._totalCount[m] = 0; });
+          g.set(key, initial);
+        }
         const group = g.get(key);
-        allMonths.forEach(m => { group[m] = (group[m] || 0) + (row[m] || 0); });
+        allMonths.forEach(m => {
+          const avgSalary = row[m] || 0;
+          const count = (row._counts && row._counts[m]) ? row._counts[m] : 0;
+          if (avgSalary > 0 && count > 0) {
+            group._totalRem[m] += (avgSalary * count);
+            group._totalCount[m] += count;
+          }
+        });
       });
-      return Array.from(g.values());
+
+      const results = Array.from(g.values()).map(group => {
+        const result = {
+          organismo_nombre: group.organismo_nombre,
+          homologado: group.homologado,
+          _monthCounts: group._totalCount
+        };
+        allMonths.forEach(m => {
+          result[m] = group._totalCount[m] > 0 ? group._totalRem[m] / group._totalCount[m] : 0;
+        });
+        return result;
+      });
+      return results;
     }
 
-    function processAndDisplayData(d) { filteredData = groupAndSumData(d); updateStats(); renderTable(); }
+    let lastFilteredDataOrig = [];
+    function processAndDisplayData(d) { lastFilteredDataOrig = d; filteredData = groupAndAverageData(d); updateStats(); renderTable(); }
 
     function updateStats() {
       document.getElementById("total-organismos").textContent = filteredData.length;
       document.getElementById("periodo-analisis").textContent = filteredMonths.length;
       document.getElementById("ultimo-mes").textContent = filteredMonths.length > 0 ? filteredMonths[filteredMonths.length - 1].replace("_", " ") : "-";
-      let s = 0, c = 0;
-      filteredData.forEach(row => { filteredMonths.forEach(m => { const v = row[m]; if (v && v > 0) { s += v; c++; } }); });
-      document.getElementById("promedio-general").textContent = c > 0 ? (s / c).toFixed(0) : "-";
+      let totalRem = 0, totalCount = 0;
+      lastFilteredDataOrig.forEach(row => {
+        filteredMonths.forEach(m => {
+          const avgSalary = row[m] || 0;
+          const count = (row._counts && row._counts[m]) ? row._counts[m] : 0;
+          if (avgSalary > 0 && count > 0) {
+            totalRem += (avgSalary * count);
+            totalCount += count;
+          }
+        });
+      });
+      document.getElementById("promedio-general").textContent = totalCount > 0 ? formatter.format(Math.round(totalRem / totalCount)) : "-";
     }
 
     function renderTable() {
@@ -1145,11 +1197,13 @@
           if (val === 0) { td.classList.add("sin-registro"); td.innerHTML = '<i class="fas fa-times"></i> Sin datos'; }
           else if (val) {
             td.style.cursor = "pointer";
+            td.dataset.value = val;
+            td.dataset.count = (row._monthCounts && row._monthCounts[m]) ? row._monthCounts[m] : 0;
             if (isPercentageMode && columnTotals[m] > 0) {
               const pct = (val / columnTotals[m] * 100); td.textContent = `${pct.toFixed(1)}%`;
               if (pct < 5) td.classList.add("porcentaje-muy-bajo"); else if (pct < 15) td.classList.add("porcentaje-bajo"); else if (pct < 25) td.classList.add("porcentaje-medio"); else td.classList.add("porcentaje-alto");
               const tt = document.createElement("div"); tt.className = "tooltip"; tt.textContent = `Valor absoluto: ${formatter.format(val)}`; td.appendChild(tt);
-            } else { td.textContent = formatter.format(val); sum += val; count++; values.push(val); }
+            } else { td.textContent = formatter.format(Math.round(val)); sum += val; count++; values.push(val); }
 
             td.addEventListener('click', () => handleCellClick(row, m, ""));
           } else { td.textContent = "-"; }

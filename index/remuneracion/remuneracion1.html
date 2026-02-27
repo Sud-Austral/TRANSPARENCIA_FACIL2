@@ -1108,18 +1108,32 @@
     }
 
     let rawData = [];
+    let countsData = [];
     const DATA_URL = `../../remuneraciones_organismo2_all/${organismoParam}.json`;
+    const COUNTS_URL = `../../personas_organismo2_all/${organismoParam}.json`;
 
     async function initializeApp() {
       const loadingEl = document.getElementById("loading");
       const tableEl = document.getElementById("data-table");
 
       try {
-        const response = await fetch(DATA_URL);
-        if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
-        rawData = await response.json();
-        cargarTitulosBoton(rawData);
-        data = rawData;
+        const [remResp, regResp] = await Promise.all([
+          fetch(DATA_URL),
+          fetch(COUNTS_URL)
+        ]);
+
+        if (!remResp.ok) throw new Error(`Remuneraciones error: ${remResp.status}`);
+        if (!regResp.ok) throw new Error(`Registro error: ${regResp.status}`);
+
+        const remData = await remResp.json();
+        const regData = await regResp.json();
+
+        // Fusionar datos: cada fila de sueldo tendrá su correspondiente conteo de personas
+        data = remData.map((row, i) => {
+          return { ...row, _counts: regData[i] || {} };
+        });
+
+        cargarTitulosBoton(data);
 
         // Obtener todos los meses únicos
         const allKeys = new Set();
@@ -1266,35 +1280,53 @@
       }
     }
 
-    function groupAndSumData(dataToProcess) {
+    function groupAndAverageData(dataToProcess) {
       const groupedData = new Map();
 
       dataToProcess.forEach(row => {
         const key = `${row.organismo_nombre}_${row.base}`;
-
         if (!groupedData.has(key)) {
-          groupedData.set(key, {
+          const initial = {
             organismo_nombre: row.organismo_nombre,
             base: row.base,
-          });
+            _totalRem: {}, // Suma de (Sueldo * Personas)
+            _totalCount: {} // Suma de (Personas)
+          };
+          allMonths.forEach(m => { initial._totalRem[m] = 0; initial._totalCount[m] = 0; });
+          groupedData.set(key, initial);
         }
 
         const group = groupedData.get(key);
-
         allMonths.forEach(month => {
-          const val = row[month] || 0;
-          group[month] = (group[month] || 0) + val;
+          const avgSalary = row[month] || 0;
+          const count = (row._counts && row._counts[month]) ? row._counts[month] : 0;
+
+          if (avgSalary > 0 && count > 0) {
+            group._totalRem[month] += (avgSalary * count);
+            group._totalCount[month] += count;
+          }
         });
       });
 
-      return Array.from(groupedData.values());
+      const results = Array.from(groupedData.values()).map(group => {
+        const result = {
+          organismo_nombre: group.organismo_nombre,
+          base: group.base,
+          _monthCounts: group._totalCount
+        };
+        allMonths.forEach(m => {
+          result[m] = group._totalCount[m] > 0 ? group._totalRem[m] / group._totalCount[m] : 0;
+        });
+        return result;
+      });
+      return results;
     }
 
-    function processAndDisplayData(dataToProcess) {
-      // 1. Agrupar y sumar los datos proporcionados
-      filteredData = groupAndSumData(dataToProcess);
+    let lastFilteredDataOrig = [];
 
-      // 2. Actualizar estadísticas y renderizar tabla
+    function processAndDisplayData(dataToProcess) {
+      lastFilteredDataOrig = dataToProcess;
+      filteredData = groupAndAverageData(dataToProcess);
       updateStats();
       renderTable();
     }
@@ -1305,21 +1337,22 @@
       document.getElementById("ultimo-mes").textContent =
         filteredMonths.length > 0 ? filteredMonths[filteredMonths.length - 1].replace("_", " ") : "-";
 
-      let totalSum = 0;
+      let totalRem = 0;
       let totalCount = 0;
 
-      filteredData.forEach((row) => {
+      lastFilteredDataOrig.forEach((row) => {
         filteredMonths.forEach((month) => {
-          const val = row[month];
-          if (val && val > 0) {
-            totalSum += val;
-            totalCount++;
+          const avgSalary = row[month] || 0;
+          const count = (row._counts && row._counts[month]) ? row._counts[month] : 0;
+          if (avgSalary > 0 && count > 0) {
+            totalRem += (avgSalary * count);
+            totalCount += count;
           }
         });
       });
 
       const promedioGeneral =
-        totalCount > 0 ? (totalSum / totalCount).toFixed(0) : "-";
+        totalCount > 0 ? formatter.format(Math.round(totalRem / totalCount)) : "-";
       document.getElementById("promedio-general").textContent = promedioGeneral;
     }
 
@@ -1398,6 +1431,8 @@
             td.classList.add("sin-registro");
             td.innerHTML = '<i class="fas fa-times"></i> Sin datos';
           } else if (val) {
+            td.dataset.value = val;
+            td.dataset.count = (row._monthCounts && row._monthCounts[month]) ? row._monthCounts[month] : 0;
             if (isPercentageMode && columnTotals[month] > 0) {
               const percentage = (val / columnTotals[month] * 100);
               td.textContent = `${percentage.toFixed(1)}%`;
@@ -1417,7 +1452,7 @@
               tooltip.textContent = `Valor absoluto: ${formatter.format(val)}`;
               td.appendChild(tooltip);
             } else {
-              td.textContent = val.toLocaleString();
+              td.textContent = formatter.format(Math.round(val));
               sum += val;
               count++;
               values.push(val);
